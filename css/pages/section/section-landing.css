@@ -71,7 +71,7 @@
 }
 
 .landing-section .landing-video .video-fallback {
-	position: relative;
+	position: absolute;
 	z-index: 10;
 	top: 0;
 	left: 0;
@@ -96,10 +96,6 @@
 }
 
 @media ( min-width: 1040px ) {
-	.landing-section .landing-video .video-fallback {
-		display: none;
-	}
-
 	.landing-section .landing-video video {
 		position: relative;
 	}

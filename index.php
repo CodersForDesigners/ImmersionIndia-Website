@@ -201,10 +201,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 		<!-- Landing Section -->
 		<section class="landing-section fill-dark" id="home">
-			<div class="landing-video">
+			<div class="landing-video youtube-embed-bg js_embed_bg_yt">
 
 				<div class="video-fallback js_video_fallback"></div>
-				<video id="video" class="js_landing_video" loop="true" autoplay="" muted="" src="video/landing-video.mp4?v=2.6.2" webkit-playsinline playsinline></video>
+				<iframe id="youtube_video_embed" width="1280" height="1600" src="https://www.youtube.com/embed/HbF9dprVnkk?enablejsapi=1&html5=1&mute=1&color=white&controls=0&disablekb=1&fs=0&autoplay=0&loop=0&modestbranding=1&playsinline=1&rel=0&showinfo=0&end=83" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 				<!-- <div class="youtube_embed" data-src="https://www.youtube.com/embed/Scxs7L0vhZ4?rel=0&controls=0&showinfo=0&rel=0&mute=1&autoplay=1&loop=1" style="padding-top: 56.25%; padding-bottom: 0.14%;">
 					<div class="youtube_load"></div>
@@ -1441,32 +1441,16 @@ $(document).ready(function(){
 	 * On mobile and tablet devices, show an image first.
 	 * If the video plays, then fade it out.
 	 *
-	 * This is because auto-playing videos on such devices is in-consistent.
+	 * The video is played through the YouTube API which triggers an event
+	 * 	when the video starts playing. This function is called at that point.
 	 *
 	 */
 	 	var $landingVideoFallback = $( ".js_video_fallback" );
-	 	var $landingVideo = $( ".js_landing_video" );
-	 	var domLandingVideo = $landingVideo.get( 0 );
 	 	function hideFallbackImage ( event ) {
-	 		// determine who invoked the function
-	 		// the interval or the `play` event handler
-	 		// console.log( "triggered by "play" event? " + !! event );
-	 		if (
-	 			( event && event.type == "play" ) ||
-	 			domLandingVideo.currentTime > 0
-	 		) {
-				$landingVideoFallback.addClass( "fade-out js_hidden" );
-				clearInterval( checkIfLandingVideoIsPlaying );
-	 		}
+			$landingVideoFallback.addClass( "fade-out js_hidden" );
 		}
-		// Check if the video plays
-		$landingVideo.one( "play", hideFallbackImage );
-		var checkIfLandingVideoIsPlaying = setInterval( hideFallbackImage, 500 );
-		// Clear the check regardless if it looks likes the video ain't gonna play
-		setTimeout( function () {
-			clearInterval( checkIfLandingVideoIsPlaying );
-			$landingVideo.off( "play" );
-		}, 25000 );
+		// Expose it globally
+		window.hideFallbackImage = hideFallbackImage;
 
 
 

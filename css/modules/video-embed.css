@@ -27,6 +27,31 @@
 	height: 100%;
 }
 
+.youtube-embed-bg {
+	position: relative;
+	height: 0;
+	padding-top: 74.85%; /* 16:9 */
+	padding-bottom: 0.15%;
+	font-size: 0;
+	background-color: #000000;
+	pointer-events: none;
+	overflow: hidden;
+}
+.youtube-embed-bg * {
+	pointer-events: none;
+}
+
+.youtube-embed-bg iframe {
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	height: 230%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY( -50% ) scale( 1.5 );
+}
+
 .youtube_load {
 	position: absolute;
 	z-index: 1;
