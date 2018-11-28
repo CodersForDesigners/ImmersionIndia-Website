@@ -1,0 +1,139 @@
+/*
+ * Booking Section
+ */
+
+.booking-section {}
+
+.booking-section .booking {
+	padding: 40px 0;
+}
+
+.booking-section .booking .headline {
+	color: var(--dark);
+}
+
+.booking-section .booking label {
+	margin-top: 15px;
+}
+
+.booking-section .email-action {
+	position: relative;
+	display: block;
+	margin-top: 32px;
+	padding: 23px 18px;
+	color: var(--off-dark);
+	font-size: 1.2rem;
+	line-height: 1;
+	background-color: rgba(0,0,0,0.06);
+	-webkit-transition: background .3s ease-out;
+	transition: background .3s ease-out;
+}
+
+.booking-section .email-action:hover,
+.booking-section .email-action:focus {
+	background-color: rgba(0,0,0,0.12);
+}
+
+.booking-section .email-action .icon {
+	position: relative;
+	width: 30px;
+	height: auto;
+	margin-right: 7px;
+}
+
+.booking-section .email-action .icon img {
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+
+.booking-section .email-action .email-id {
+	margin-top: 2px;
+	color: var(--pink);
+	font-size: 1.6rem;
+	font-weight: 500;
+}
+
+.booking-section .email-action .email-id .text-underline {
+	display: inline-block;
+	border-bottom: 1px solid var(--pink);
+}
+
+.booking-section input[ type = "submit" ]:disabled {
+	opacity: 0.9;
+}
+.booking-section input[ type = "submit" ].done:disabled {
+	opacity: 1;
+}
+
+@media( min-width: 640px ) {
+	.booking-section .booking {
+		padding: 70px 0;
+	}
+
+	.booking-section .booking .form-item:nth-child(2n+1) {
+		padding-right: 15px;
+	}
+
+	.booking-section .booking .form-item:nth-child(2n+2) {
+		padding-left: 15px;
+	}
+
+	.booking-section .booking .form-item:last-child {
+		padding-left: 15px;
+		padding-right: 0;
+	}
+
+	.booking-section .email-action {
+		padding: 32px;
+		font-size: 2rem;
+	}
+
+	.booking-section .email-action .icon {
+		width: 64px;
+		margin-right: 15px;
+	}
+
+	.booking-section .email-action .email-id {
+		font-size: 3.2rem;
+	}
+}
+
+@media( min-width: 1040px ) {
+	.booking-section .booking {
+		padding: 120px 0;
+	}
+
+	.booking-section .email-action {
+		padding: 45px 60px;
+	}
+	.booking-section .email-action .email-id .text-underline {
+		border-bottom: 2px solid var(--pink);
+	}
+}
+
+@media( min-width: 1380px ) {
+	.booking-section .email-action {
+		font-size: 3.2rem;
+	}
+
+	.booking-section .email-action .icon {
+		width: 100px;
+		margin-right: 25px;
+	}
+
+	.booking-section .email-action .email-id {
+		font-size: 4.8rem;
+	}
+}
+
+@media( min-width: 1920px ) {}
+
+
+
+
+
+
+
+
+

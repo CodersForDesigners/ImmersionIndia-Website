@@ -1,0 +1,173 @@
+/*
+ * Navigation
+ */
+
+.navigation-section {
+	position: absolute;
+	z-index: 100;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+	text-align: right;
+}
+
+.navigation-section .mini-menu-button {
+	display: inline-block;
+	padding: 8px 6px;
+	width: 34px;
+	height: auto;
+	font-size: 0;
+	line-height: 0;
+	cursor: pointer;
+	opacity: 0.8;
+}
+.navigation-section .mini-menu-button * { pointer-events: none; }
+
+.navigation-section .mini-menu-button:hover,
+.navigation-section .mini-menu-button:focus {
+	opacity: 1;
+	outline: 0;
+}
+
+.navigation-section .mini-menu-button .line {
+	display: block;
+	width: 100%;
+	height: 2px;
+	margin-bottom: 5px;
+	background-color: var(--off-light);
+	-webkit-transition: .2s ease-out;
+	transition: .2s ease-out;
+}
+
+.navigation-section .mini-menu-button .line:last-child {
+	margin-bottom: 0;
+}
+
+.navigation-section .mini-menu-button .line:nth-child(1) { width: 50%; }
+.navigation-section .mini-menu-button .line:nth-child(2) { width: 100%; }
+.navigation-section .mini-menu-button .line:nth-child(3) { width: 50%; margin-left: 50%;}
+
+.navigation-section .mini-menu-button:hover .line:nth-child(1),
+.navigation-section .mini-menu-button:focus .line:nth-child(1) { width: 100%; }
+
+.navigation-section .mini-menu-button:hover .line:nth-child(3),
+.navigation-section .mini-menu-button:focus .line:nth-child(3) { width: 100%; margin-left: 0; }
+
+
+.navigation-section .navigation {
+	display: none;
+}
+
+.navigation-section .navigation .button {
+	/*background-color: rgba(250,250,250,0.1);*/
+	/*font-weight: 700;*/
+	color: var(--off-light);
+	font-size: 1.3rem;
+	border: 1px solid transparent;
+}
+
+.navigation-section .navigation .button:hover,
+.navigation-section .navigation .button.active {
+	color: var(--orange);
+}
+
+.navigation-section .navigation .button.button-highlight {
+	border: 1px solid var(--pink);
+}
+
+.navigation-section .navigation .button.button-highlight:hover,
+.navigation-section .navigation .button.button-highlight.active {
+	color: var(--pink);
+}
+
+@media( min-width: 640px ) {
+	.navigation-section {
+		/*position: relative;*/
+		/*top: auto;*/
+		/*left: auto;*/
+
+		/*background-color: #070606;*/
+		background-color: rgba(0,0,0,0.3);
+		/*background: -moz-linear-gradient(top, rgba(35,31,32,0.5) 0%, rgba(35,31,32,0) 95%);*/
+		/*background: -webkit-linear-gradient(top, rgba(35,31,32,0.5) 0%,rgba(35,31,32,0) 95%);*/
+		/*background: linear-gradient(to bottom, rgba(35,31,32,0.5) 0%,rgba(35,31,32,0) 95%);*/
+		/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#05231f20',GradientType=0 );*/
+
+		/* -- fix for weird decimal pixel bug caused
+			due to landing image percentage height -- */
+		/*-webkit-transform: translateY(-3px);*/
+		/*transform: translateY(-3px);*/
+	}
+
+
+	.navigation-section.scrolled {
+		position: fixed;
+		top: 0;
+		left: 0;
+		background: rgba(0,0,0,0.7);
+		-webkit-transform: translateY(-100%); 
+		transform: translateY(-100%); 
+		animation: slide-nav .3s 1.5s forwards ease-out;
+	}
+
+	@keyframes slide-nav {
+		0% {
+			-webkit-transform: translateY(-100%); 
+			transform: translateY(-100%); 
+		}
+		100% {
+			-webkit-transform: translateY(0%);
+			transform: translateY(0%);
+		}
+	}
+
+	.navigation-section .mini-menu-button { display: none; }
+
+	.navigation-section .navigation {
+		display: block;
+		padding: 30px 0;
+	}
+
+	.navigation-section.scrolled .navigation {
+		padding: 10px 0;
+		transform: scale(.85);
+		-moz-transform: scale(.85);
+		-webkit-transform: scale(.85);
+	}
+
+	.navigation-section .navigation .button {
+		height: 30px;
+		line-height: 29px;
+		margin-right: 5px;
+	}
+	.navigation-section .navigation .button:last-child {
+		margin-right: 0;
+	}
+
+	/*.navigation-section.scrolled + section { margin-top: 90px; }*/
+}
+
+@media( min-width: 1040px ) {
+
+	.navigation-section .navigation .button {
+		height: 36px;
+		line-height: 35px;
+		margin-right: 10px;
+		padding: 0 15px;
+		font-size: 1.5rem;
+	}
+
+	/*.navigation-section.scrolled + section { margin-top: 96px; }*/
+
+}
+
+@media( min-width: 1380px ) {
+
+	.navigation-section .navigation .button {
+		font-size: 1.7rem;
+	}
+
+}
+
+@media( min-width: 1920px ) {}

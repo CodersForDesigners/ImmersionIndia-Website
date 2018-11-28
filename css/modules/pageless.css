@@ -1,0 +1,12 @@
+
+/* -- Navigation -- */
+.js_nav_button.active {
+	color: white;
+	background-color: deepskyblue;
+	border-color: deepskyblue;
+}
+
+/* -- Page Content -- */
+#page-content {
+	min-height: 100vh;
+}

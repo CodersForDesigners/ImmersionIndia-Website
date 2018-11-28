@@ -1,0 +1,6 @@
+
+AuthType Basic
+AuthName "Admin Dashboard"
+AuthBasicProvider file
+AuthUserFile "/usr/local/apache/auth/pwd"
+Require user lazaro

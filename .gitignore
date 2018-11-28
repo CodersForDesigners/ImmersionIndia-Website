@@ -1,0 +1,20 @@
+
+# the .DS_Store files everywhere
+.DS_Store
+
+/database
+
+/favicon
+
+/img
+
+/img-mobile
+
+/social
+
+/uploads
+
+/video
+
+/http2
+

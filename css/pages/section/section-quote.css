@@ -1,0 +1,42 @@
+/*
+ * Quote Section
+ */
+
+.quote-section {
+}
+
+.quote-section .quote {
+	padding: 40px 0;
+	line-height: 1.5;
+}
+
+.quote-section .quote .person {
+	font-size: 90%;
+	font-family: 'marydale', cursive;
+	font-weight: 700;
+}
+
+@media( min-width: 640px ) {
+	.quote-section .quote {
+		padding: 70px 0;
+	}
+}
+
+@media( min-width: 1040px ) {
+	.quote-section .quote {
+		padding: 120px 0;
+		letter-spacing: 0.05rem;
+	}
+}
+
+@media( min-width: 1380px ) {}
+@media( min-width: 1920px ) {}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,122 @@
+/*
+ * Footer Section
+ */
+
+.footer-section {}
+
+.footer-section .footer {
+	padding-bottom: 40px;
+	color: var(--off-dark);
+}
+
+.footer-section .footer .logo { padding-bottom: 30px; }
+.footer-section .footer a {
+	position: relative;
+	color: var(--light);
+	text-decoration: none;
+	margin-bottom: 25px;
+	font-size: 1.6rem;
+	line-height: 14px;
+	letter-spacing: 0.05rem;
+}
+
+.footer-section .footer a img {
+	width: 18px;
+	height: auto;
+	margin-right: 8px;
+}
+
+.footer-section .footer a span {
+	position: relative;
+	background-color: var(--light);
+    background-image: -webkit-linear-gradient(left, var(--orange) 0%, var(--pink) 50%, transparent 50%);
+    background-position: 100% 0;
+    background-size: 200% 200%;
+    color: transparent;
+    -webkit-transition: .1s .2s;
+    -webkit-background-clip: text;
+}
+
+.footer-section .footer a:hover span {
+	background-position: 0 0;
+    color: transparent;
+    transition: .4s 0;
+}
+
+.footer-section .footer .address {
+	font-size: 1.4rem;
+	line-height: 1.6;
+}
+
+@media( min-width: 640px ) {
+	.footer-section .footer {
+		padding-bottom: 70px;
+		font-size: 1.4rem;
+	}
+
+	.footer-section .footer .logo { padding-bottom: 40px; }
+
+	.footer-section .footer a {
+		font-size: 1.4rem;
+		line-height: 12px;
+	}
+
+	.footer-section .footer a img {
+		margin-right: 4px;
+	}
+
+	.footer-section .footer .address {
+		padding-top: 1px;
+	}
+
+}
+
+@media( min-width: 1040px ) {
+	.footer-section .footer {
+		padding-bottom: 120px;
+		font-size: 1.6rem;
+	}
+
+	.footer-section .footer .logo { padding-bottom: 60px; }
+
+	.footer-section .footer a {
+		font-size: 1.6rem;
+		line-height: 14px;
+		letter-spacing: 0.1rem;
+	}
+
+	.footer-section .footer a img {
+		width: 20px;
+		margin-right: 8px;
+	}
+
+	.footer-section .footer .address {
+		font-size: 1.6rem;
+	}
+}
+
+@media( min-width: 1380px ) {
+
+	.footer-section .footer .logo { padding-bottom: 80px; }
+
+	.footer-section .footer a {
+		font-size: 1.8rem;
+		line-height: 18px;
+	}
+	.footer-section .footer a img {
+		width: 24px;
+	}
+	.footer-section .footer .address {
+		font-size: 1.8rem;
+	}
+}
+@media( min-width: 1920px ) {}
+
+
+
+
+
+
+
+
+
