@@ -33,10 +33,11 @@ $(document).ready( function(){
 	// 1. Load the YouTube API library (asynchronously)
 	var scriptElement = document.createElement( "script" );
 	scriptElement.src = "https://www.youtube.com/iframe_api";
-	$( "script" ).last().after( scriptElement );
+	$( "body script" ).first().before( scriptElement );
 
 	// 2. Setup the YouTube video, its playback options and hooks event handling
 	function onYouTubeIframeAPIReady () {
+		$( document ).trigger( "youtube-api/ready" );
 		new YT.Player( "youtube_video_embed", {
 			events: {
 				onReady: onPlayerReady,
