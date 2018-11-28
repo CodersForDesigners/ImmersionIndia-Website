@@ -214,17 +214,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<div class="overlay-pattern"></div>
 
 			</div>
-			<div class="landing-playbutton row">
+			<div class="landing-playbutton row js_landing_play_button hidden">
 				<div class="container">
 					<div class="columns small-12 text-center">
-						<!-- <button class="button fill-teal js_modal_trigger" data-mod-id="tour-film">
+						<button class="button fill-teal js_modal_trigger" data-mod-id="tour-film">
 							<i class="icon material-icons">play_arrow</i>
-						</button> -->
-						<!-- <div class="h3 text-uppercase">Watch Me First</div> -->
-						<a class="hide-for-mobile inline js_smooth" href="#what_we_do" style="color: #F2F3EB;">
-							<i class="icon material-icons no-pointer">touch_app</i>
-							<div class="p text-uppercase no-pointer">Scroll</div>
-						</a>
+						</button>
+						<div class="h3 text-uppercase">Watch Me First</div>
 					</div>
 				</div>
 			</div>
@@ -901,9 +897,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<div class="row">
 					<div class="columns small-12">
 						<!-- video embed -->
-						<div class="youtube_embed" data-src="https://www.youtube.com/embed/lncVHzsc_QA?rel=0&showinfo=0">
+						<div class="youtube_embed">
 							<div class="youtube_load"></div>
-							<iframe width="1280" height="720" src="" frameborder="0" allowfullscreen></iframe>
+							<iframe class="js_tour_film_embed" width="1280" height="720" src="https://www.youtube.com/embed/AwgsK30aFl8?enablejsapi=1&html5=1&color=white&disablekb=1&modestbranding=1&playsinline=0&rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
 						</div>
 					</div>
 				</div>
@@ -1451,6 +1447,40 @@ $(document).ready(function(){
 		}
 		// Expose it globally
 		window.hideFallbackImage = hideFallbackImage;
+
+
+
+
+
+	/*
+	 *
+	 * Tour Film Modal
+	 *
+	 * On opening the modal, autoplay the YouTube video
+	 *
+	 */
+	function setupTourFilm () {
+		new YT.Player( $( ".js_tour_film_embed" ).get( 0 ), {
+			events: {
+				onReady: function ( event ) {
+					// Show the play button graphic
+					$( ".js_landing_play_button" ).removeClass( "hidden" );
+					$( document ).on( "modal/open/tour-film", function () {
+						if (
+							event.data != YT.PlayerState.ENDED
+							&& event.data != YT.PlayerState.PAUSED
+						)
+							event.target.playVideo();
+					} );
+					$( document ).on( "modal/close/tour-film", function () {
+						event.target.pauseVideo();
+					} );
+				}
+			}
+		} );
+	}
+	$( document ).one( "youtube-api/ready", setupTourFilm );
+
 
 
 
