@@ -15,11 +15,13 @@ $(document).ready( function(){
 	window.setTimeout(function() {
 		$( '.youtube_embed' ).each( function() {
 			var yt_src = $( this ).data( 'src' );
-			$( this ).find( 'iframe' ).attr( 'src', yt_src );
+			if ( yt_src )
+				$( this ).find( 'iframe' ).attr( 'src', yt_src );
 		} );
 		$( '.facebook_embed' ).each( function() {
 			var fb_src = $( this ).data( 'src' );
-			$( this ).find( 'iframe' ).attr( 'src', fb_src );
+			if ( fb_src )
+				$( this ).find( 'iframe' ).attr( 'src', fb_src );
 		} );
 	}, 3000);
 
