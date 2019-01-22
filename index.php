@@ -760,7 +760,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							<div class="p text-uppercase designation">Founder &amp; Managing Partner</div>
 						</div>
 						<div class="p description columns small-10 small-offset-1 medium-6 medium-offset-0 large-5 large-offset-0">
-							I am a business graduate with over six years of experience in International Education and Exchange. I have developed strategic global opportunities with foreign universities, keeping in mind a student's needs and interests. Before joining the education space, I worked with the Tata Group’s IT Division, on their Business Development team. When I am not working, I prefer studying photography, history, cultural intelligence or just traveling.
+							I am a business graduate with experience in International Education and Exchange. I have developed strategic global opportunities with foreign universities, keeping in mind a student's needs and interests. Before joining the education space, I worked with the Tata Group’s IT Division, on their Business Development team. When I am not working, I prefer studying photography, history, cultural intelligence or just traveling.
 						</div>
 					</div>
 
@@ -776,7 +776,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							<div class="p text-uppercase designation">Founder &amp; Partner</div>
 						</div>
 						<div class="p description columns small-10 small-offset-1 medium-6 medium-offset-0 large-5 large-offset-0">
-							I am a business graduate with seven years behind me. When I was a student intern, I had traveled extensively through the United States to spend time at various universities there. I currently spend time building rapport with students to understand their needs and aspirations, before counseling them on their career path. I stay with my family in Bangalore, India. Things that keep me busy otherwise are a keen interest in music, travel and keeping up with the capital markets.
+							I am a business graduate. When I was a student intern, I had traveled extensively through the United States to spend time at various universities there. I currently spend time building rapport with students to understand their needs and aspirations, before counseling them on their career path. I stay with my family in Bangalore, India. Things that keep me busy otherwise are a keen interest in music, travel and keeping up with the capital markets.
 						</div>
 					</div>
 
