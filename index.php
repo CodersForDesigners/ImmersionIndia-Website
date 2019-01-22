@@ -643,7 +643,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 									</div>
 									<div class="time">
 										<span class="text-uppercase fill-teal"><?php echo $number_of_days ?> Days</span>
-										<div class="h3 text-cursive"><?php echo date( 'F Y', strtotime( $tour[ 'start_date' ] ) ) ?></div>
+										<div class="h3 text-cursive visuallyhidden"><?php echo date( 'F Y', strtotime( $tour[ 'start_date' ] ) ) ?></div>
 									</div>
 								</div>
 								<div class="content">
