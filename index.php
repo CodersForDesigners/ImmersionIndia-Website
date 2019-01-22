@@ -1063,35 +1063,35 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 									<span class="location">Bangalore</span>
 									<span class="caption">This is a sample caption.</span>
 								</div>
-								<img src="http://via.placeholder.com/300x300">
+								<img src="https://via.placeholder.com/300x300">
 							</div>
 							<div class="figure" tabindex="0">
 								<div class="info">
 									<span class="location">Bangalore</span>
 									<span class="caption">This is a sample caption.</span>
 								</div>
-								<img src="http://via.placeholder.com/300x300">
+								<img src="https://via.placeholder.com/300x300">
 							</div>
 							<div class="figure" tabindex="0">
 								<div class="info">
 									<span class="location">Bangalore</span>
 									<span class="caption">This is a sample caption.</span>
 								</div>
-								<img src="http://via.placeholder.com/300x300">
+								<img src="https://via.placeholder.com/300x300">
 							</div>
 							<div class="figure" tabindex="0">
 								<div class="info">
 									<span class="location">Bangalore</span>
 									<span class="caption">This is a sample caption.</span>
 								</div>
-								<img src="http://via.placeholder.com/300x300">
+								<img src="https://via.placeholder.com/300x300">
 							</div>
 							<div class="figure" tabindex="0">
 								<div class="info">
 									<span class="location">Bangalore</span>
 									<span class="caption">This is a sample caption.</span>
 								</div>
-								<img src="http://via.placeholder.com/300x300">
+								<img src="https://via.placeholder.com/300x300">
 							</div>
 						</div>
 					</div>
@@ -1104,35 +1104,35 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 									<span class="location">Bangalore</span>
 									<span class="caption">This is a sample caption.</span>
 								</div>
-								<img src="http://via.placeholder.com/300x300">
+								<img src="https://via.placeholder.com/300x300">
 							</div>
 							<div class="figure" tabindex="0">
 								<div class="info">
 									<span class="location">Bangalore</span>
 									<span class="caption">This is a sample caption.</span>
 								</div>
-								<img src="http://via.placeholder.com/300x300">
+								<img src="https://via.placeholder.com/300x300">
 							</div>
 							<div class="figure" tabindex="0">
 								<div class="info">
 									<span class="location">Bangalore</span>
 									<span class="caption">This is a sample caption.</span>
 								</div>
-								<img src="http://via.placeholder.com/300x300">
+								<img src="https://via.placeholder.com/300x300">
 							</div>
 							<div class="figure" tabindex="0">
 								<div class="info">
 									<span class="location">Bangalore</span>
 									<span class="caption">This is a sample caption.</span>
 								</div>
-								<img src="http://via.placeholder.com/300x300">
+								<img src="https://via.placeholder.com/300x300">
 							</div>
 							<div class="figure" tabindex="0">
 								<div class="info">
 									<span class="location">Bangalore</span>
 									<span class="caption">This is a sample caption.</span>
 								</div>
-								<img src="http://via.placeholder.com/300x300">
+								<img src="https://via.placeholder.com/300x300">
 							</div>
 						</div>
 					</div>
@@ -1145,35 +1145,35 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 									<span class="location">Bangalore</span>
 									<span class="caption">This is a sample caption.</span>
 								</div>
-								<img src="http://via.placeholder.com/300x300">
+								<img src="https://via.placeholder.com/300x300">
 							</div>
 							<div class="figure" tabindex="0">
 								<div class="info">
 									<span class="location">Bangalore</span>
 									<span class="caption">This is a sample caption.</span>
 								</div>
-								<img src="http://via.placeholder.com/300x300">
+								<img src="https://via.placeholder.com/300x300">
 							</div>
 							<div class="figure" tabindex="0">
 								<div class="info">
 									<span class="location">Bangalore</span>
 									<span class="caption">This is a sample caption.</span>
 								</div>
-								<img src="http://via.placeholder.com/300x300">
+								<img src="https://via.placeholder.com/300x300">
 							</div>
 							<div class="figure" tabindex="0">
 								<div class="info">
 									<span class="location">Bangalore</span>
 									<span class="caption">This is a sample caption.</span>
 								</div>
-								<img src="http://via.placeholder.com/300x300">
+								<img src="https://via.placeholder.com/300x300">
 							</div>
 							<div class="figure" tabindex="0">
 								<div class="info">
 									<span class="location">Bangalore</span>
 									<span class="caption">This is a sample caption.</span>
 								</div>
-								<img src="http://via.placeholder.com/300x300">
+								<img src="https://via.placeholder.com/300x300">
 							</div>
 						</div>
 					</div>
