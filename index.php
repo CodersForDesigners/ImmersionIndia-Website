@@ -187,11 +187,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<div class="row">
 					<div class="navigation columns small-12 text-center">
 						<a class="button js_nav_button js_smooth" href="#home">Home</a>
-						<a class="button js_nav_button js_smooth" href="#what_we_do">What We Do</a>
-						<a class="button js_nav_button js_smooth" href="#tour_packages">Tours</a>
+						<a class="button js_nav_button js_smooth" href="#what_we_do">Why us</a>
+						<a class="button js_nav_button js_smooth" href="#tour_packages">Study Programs</a>
 						<a class="button js_modal_trigger" data-mod-id="modal-faqs">FAQs</a>
-						<a class="button button-highlight js_nav_button js_smooth" href="#book_now">Book Now</a>
 						<a class="button js_nav_button js_smooth" href="#team">Team</a>
+						<a class="button button-highlight js_nav_button js_smooth" href="#book_now">Enquire Now</a>
 					</div>
 				</div>
 			</div>
@@ -265,39 +265,47 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<div class="intro row">
 
 					<div class="h2 headline columns small-10 small-offset-1 medium-9 medium-offset-2 large-5 large-offset-1">
-						We guide students on ten to fifteen day, study-centric, <strong>experiential tours of urban and rural India</strong>.
+						We guide students, corporate executives, faculty & professionals on <strong>study-centric, experiential learning programs in urban and rural India</strong>.
 					</div>
 
 					<div class="points columns small-10 small-offset-1 large-5 large-offset-0">
 						<div class="point row">
-							<div class="h3 title columns small-10 small-offset-1">Compact 10 to 15 Day Tours</div>
+							<div class="h3 title columns small-10 small-offset-1">Travel. Experience. Learn. Repeat.</div>
 							<div class="underline columns small-5 small-offset-1 medium-3 large-2"><span class="fill-teal"></span></div>
 							<div class="p description columns small-10 small-offset-1 medium-7 medium-offset-0 large-5 large-8">
-								Begin your journey in an Urban Metropolis and maybe wind up in a Wildlife Sanctuary, our tours are designed to pack a wide variety of experiences into a 10 to 15-day schedule.
+								What you can learn from first-hand experiences in a culturally-diverse developing nation like India, is so much more than what textbooks can teach you. We’ve got learning experiences for everyone – students, corporates, faculty & professionals!
 							</div>
 						</div>
 
 						<div class="point row">
-							<div class="h3 title columns small-10 small-offset-1">Faculty Lead Customisation</div>
+							<div class="h3 title columns small-10 small-offset-1">Customised High-Impact Experiences</div>
 							<div class="underline columns small-5 small-offset-1 medium-3 large-2"><span class="fill-teal"></span></div>
 							<div class="p description columns small-10 small-offset-1 medium-7 medium-offset-0 large-8">
-								Our point of difference is our ability to adapt any of our study tours. We will collaborate with you and help you design a unique experience around your class room requirements. We can find and include specific activities that align the tour with your curriculum.
+								What you want is what you get! You could begin your journey at a start-up company in an Urban Metropolis and maybe wind up in a Wildlife Sanctuary – with us, anything’s possible! Our programs are designed to pack a wide variety of experiences into a defined schedule, without compromising quality time to immerse yourself in the experience and learn from it.
 							</div>
 						</div>
 
 						<div class="point">
-							<div class="h3 title columns small-10 small-offset-1">Curriculum–Centric Itinerary</div>
+							<div class="h3 title columns small-10 small-offset-1">Researched & Handpicked Programs</div>
 							<div class="underline columns small-5 small-offset-1 medium-3 large-2"><span class="fill-teal"></span></div>
 							<div class="p description columns small-10 small-offset-1 medium-7 medium-offset-0 large-8">
-								As a professor or study abroad advisor, you know first and foremost that sometimes the world has more to offer students beyond the four walls of a classroom. College is an exciting time for students to travel abroad, broaden their horizons, deepen their understanding of subjects they are studying and diversify their cultural awareness.
+								What’s trending in urban and rural India? We have dedicated academic and cultural experts skilled in researching trends and current issues that can provide high-impact learning experiences. We work closely with faculty and program leaders, to get more clarity on how best to adapt study experiences to complement specific academic requirements.
 							</div>
 						</div>
 
 						<div class="point">
-							<div class="h3 title columns small-10 small-offset-1">End-to-end Service</div>
+							<div class="h3 title columns small-10 small-offset-1">Opportunities to Explore & Co-Learn</div>
 							<div class="underline columns small-5 small-offset-1 medium-3 large-2"><span class="fill-teal"></span></div>
 							<div class="p description columns small-10 small-offset-1 medium-7 medium-offset-0 large-8">
-								Planning, implementing, and teaching a faculty led program for your students can be an overwhelming process. We are here to ease the entire planning process. We also have you completely covered from the moment you land in India, be it: airport transfers, local transport, 3 and 4-star hotels, breakfast, lunch, dinner, ferry tickets, travel insurance and much more.
+								What better way to learn than to co-learn with the best minds! Our experiences give you the freedom to explore a wide range of academic disciplines through our extensive connects in leading corporations and top-ranked academic institutions. With unrestricted access to industry experts and academicians, we offer great opportunities to deepen your understanding of any subject and increase your cultural awareness.
+							</div>
+						</div>
+
+						<div class="point">
+							<div class="h3 title columns small-10 small-offset-1">We’ve Got It Covered</div>
+							<div class="underline columns small-5 small-offset-1 medium-3 large-2"><span class="fill-teal"></span></div>
+							<div class="p description columns small-10 small-offset-1 medium-7 medium-offset-0 large-8">
+								Planning the A to Z of your study experience in a foreign country is quite challenging; that requires the ‘We’ve Got It Covered’ superpower – and that’s exactly what we have! More than any travel agent, we would know your schedule best – be it airport transfers, local transport, hotel accommodation, breakfast, lunch, dinner, ferry tickets or travel insurance, we’ve got you covered. All you have to do is make the decision to entrust your learning experience to us and immerse yourself in what India can teach you!
 							</div>
 						</div>
 					</div>
@@ -451,6 +459,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<div class="packages row">
 					<div class="h1 headline text-uppercase columns small-10 small-offset-1">Study Tour Packages</div>
 					<div class="underline columns small-5 small-offset-1 medium-3 large-2"><span class="fill-pink"></span></div>
+					<div class="h3 title text-pink columns small-10 small-offset-1 medium-7 medium-offset-0 large-8">
+						Trending Innovations & Business Experience Programs
+					</div>
+					<div class="p description text-dark columns small-10 small-offset-1 medium-7 medium-offset-4 medium-offset-0 large-7 large-offset-3">
+						<br>We believe that exposure to international business ideas and innovations serves as an eye-opener to factors that influence the global marketplace. It also gives you a heightened sense of cultural awareness that helps put the prevalent business environment in perspective. <br><br>
+						Give us two weeks and we guarantee you’ll go back with a wealth of academic, experiential and cultural experiences that will change the way you view the world. <br><br>
+						From seeing to learning to applying to innovating… your journey begins with us! <br>
+					</div>
 				</div>
 			</div>
 			<!-- Packages List -->
@@ -873,10 +889,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<div class="row">
 					<div class="navigation">
 						<a class="button columns small-12 text-center js_nav_button js_smooth active" href="#home">Home</a>
-						<a class="button columns small-12 text-center js_nav_button js_smooth" href="#what_we_do">What We Do</a>
-						<a class="button columns small-12 text-center js_nav_button js_smooth" href="#tour_packages">Tours</a>
-						<a class="button button-highlight columns small-12 text-center js_nav_button js_smooth" href="#book_now">Book Now</a>
+						<a class="button columns small-12 text-center js_nav_button js_smooth" href="#what_we_do">Why Us</a>
+						<a class="button columns small-12 text-center js_nav_button js_smooth" href="#tour_packages">Study Programs</a>
 						<a class="button columns small-12 text-center js_nav_button js_smooth" href="#team">Team</a>
+						<a class="button button-highlight columns small-12 text-center js_nav_button js_smooth" href="#book_now">Enquire Now</a>
 					</div>
 				</div>
 			</div>
