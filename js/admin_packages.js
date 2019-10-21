@@ -51,6 +51,7 @@ $( ".js_package_add" ).on( "click", function ( event ) {
 	var data = { };
 
 	data.title = $form.find( "[ name = title ]" ).val();
+	data.label = $form.find( "[ name = label ]" ).val();
 	data.price = $form.find( "[ name = price ]" ).val();
 	data.description = $form.find( "[ name = description ]" ).val();
 	data.schedule = $form.find( "[ name = schedule ]" ).data( "path" ) || "";
@@ -124,6 +125,7 @@ $( ".js_package_update" ).on( "click", function ( event ) {
 	var data = { };
 
 	data.title = $form.find( "[ name = title ]" ).val();
+	data.label = $form.find( "[ name = label ]" ).val();
 	data.price = $form.find( "[ name = price ]" ).val();
 	data.description = $form.find( "[ name = description ]" ).val();
 	data.schedule = $form.find( "[ name = schedule ]" ).data( "path" ) || "";

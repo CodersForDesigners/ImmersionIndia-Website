@@ -115,21 +115,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<h4>New Package</h4>
 					</div>
 					<div class="form-row columns five offset-by-one clearfix">
+						<label>Label<br>
+							<input class="block" type="text" name="label">
+						</label>
+					</div>
+					<div class="form-row columns five clearfix">
 						<label>Title<br>
 							<input class="block" type="text" name="title">
 						</label>
 					</div>
-					<div class="form-row columns five clearfix">
+					<div class="form-row columns five offset-by-one clearfix">
 						<label>Price<br>
 							<input class="block" type="text" name="price">
 						</label>
 					</div>
-					<div class="form-row columns five offset-by-one clearfix">
+					<div class="form-row columns five clearfix">
 						<label>Description<br>
 							<textarea class="block" name="description"></textarea>
 						</label>
 					</div>
-					<div class="form-row columns five">
+					<div class="form-row columns five offset-by-one">
 						<label>Schedule<br>
 							<label class="input-file button button-icon inline">
 								<input type="file" accept=".pdf" name="schedule">
@@ -174,7 +179,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 										echo "[processing] ";
 									}
 								?>
-								<?php echo $package->title ?>
+								<?php echo $package->label ?>
 							</h4>
 						</div>
 						<div class="columns four text-right">
@@ -187,21 +192,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<div class="show-more-content js_show_more_content">
 						<div class="row">
 							<div class="form-row columns five offset-by-one">
+								<label>Label<br>
+									<input class="block" type="text" name="label" value="<?php echo $package->label ?>">
+								</label>
+							</div>
+							<div class="form-row columns five">
 								<label>Title<br>
 									<input class="block" type="text" name="title" value="<?php echo $package->title ?>">
 								</label>
 							</div>
-							<div class="form-row columns five">
+							<div class="form-row columns five offset-by-one">
 								<label>Price<br>
 									<input class="block" type="text" name="price" value="<?php echo $package->price ?>">
 								</label>
 							</div>
-							<div class="form-row columns five offset-by-one">
+							<div class="form-row columns five">
 								<label>Description<br>
 									<textarea class="block" name="description"><?php echo $package->description ?></textarea>
 								</label>
 							</div>
-							<div class="form-row columns three">
+							<div class="form-row columns three offset-by-one">
 								<label>Schedule<br>
 									<label class="input-file button button-icon inline">
 										<input type="file" accept=".pdf" name="schedule" data-path="<?php echo $package->schedule ?>">

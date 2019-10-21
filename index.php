@@ -479,7 +479,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								$description = preg_replace( '/\R/', '<br>', $package->description );
 							?>
 							<div class="package js_package" tabindex="0">
-								<div class="days-title fill-dark h4 text-uppercase"><?php echo array_sum( array_column( $package->locations , 'days' ) ); ?> Day Study Tour</div>
+								<div class="days-title fill-dark h4 text-uppercase"><?php echo $package->label ?></div>
 								<div class="thumbnail">
 									<?php foreach ( $package->locations as $location ) : ?>
 										<?php
@@ -723,7 +723,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 									<select class="block js_form_booking_package" name="booking_package" id="form_booking_package">
 										<option value="" disabled="disabled" selected="true">Select</option>
 										<?php foreach ( $packages as $package ) : ?>
-											<option value="<?php echo $package->title ?>"><?php echo $package->title . ' [ ' . $package->price . ' ]' ?></option>
+											<option value="<?php echo $package->title ?>"><?php echo $package->label . ' [ ' . $package->price . ' ]' ?></option>
 										<?php endforeach; ?>
 									</select>
 								</div>
