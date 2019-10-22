@@ -7,6 +7,10 @@
 	padding: 40px 0;
 }
 
+.team-section .team .description {
+	padding-bottom: 30px;
+}
+
 .team-section .team .profile {
 	padding-bottom: 30px;
 }
@@ -30,6 +34,10 @@
 		padding: 70px 0;
 	}
 
+	.team-section .team .description {
+		padding-bottom: 50px;
+	}
+
 	.team-section .team .profile {
 		padding-bottom: 50px;
 	}
@@ -42,6 +50,10 @@
 @media( min-width: 1040px ) {
 	.team-section .team {
 		padding: 120px 0;
+	}
+
+	.team-section .team .description {
+		padding-bottom: 80px;
 	}
 
 	.team-section .team .profile {

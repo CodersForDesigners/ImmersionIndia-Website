@@ -16,6 +16,9 @@
 	padding: 40px 0;
 	color: var(--dark);
 }
+.intro-section .intro .headline .subheading {
+	padding: 0 0 15px;
+}
 
 .intro-section .intro .points {
 	margin-bottom: 180px;
@@ -124,6 +127,9 @@
 	.intro-section .intro .headline {
 		padding: 120px 0;
 	}
+	.intro-section .intro .headline .subheading {
+		padding: 5px 0 10px;
+	}
 
 	.intro-section .intro .points {
 		margin-bottom: 0;
@@ -166,6 +172,10 @@
 }
 
 @media( min-width: 1380px ) {
+	.intro-section .intro .headline .subheading {
+		padding: 10px 0 15px;
+	}
+
 	.intro-section .intro .point .description {
 		line-height: 2;
 	}

@@ -44,10 +44,10 @@ $( function () {
 		// 	$phoneNumber.addClass( "form-error" );
 		// 	alert( "Please enter a valid phone number." );
 		// }
-		if ( $phoneNumber.val().replace( /\D/g, "" ).length < 9 ) {
+		/*if ( $phoneNumber.val().replace( /\D/g, "" ).length < 9 ) {
 			$phoneNumber.addClass( "form-error" );
 			alert( "Please enter a valid phone number." );
-		}
+		}*/
 
 		// If any of the required fields had no value or an incorrect one, then
 		// do not proceed.

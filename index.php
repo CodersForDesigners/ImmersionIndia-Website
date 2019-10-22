@@ -264,19 +264,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<div class="container">
 				<div class="intro row">
 
-					<div class="h2 headline columns small-10 small-offset-1 medium-9 medium-offset-2 large-5 large-offset-1">
-						We guide students, corporate executives, faculty & professionals on <strong>study-centric, experiential learning programs in urban and rural India</strong>.
+					<div class="headline columns small-10 small-offset-1 medium-9 large-5">
+						<div class="h2">We guide students, corporate executives, faculty & professionals on <strong>study-centric, experiential learning programs in urban and rural India</strong>.</div>
+						<div class="underline columns small-6 medium-4 large-5"><span class="fill-teal"></span></div>
+						<div class="h3 subheading"><strong>Travel. Experience. Learn. Repeat.</strong></div>
+						<div class="p">What you can learn from first-hand experiences in a culturally-diverse developing nation like India, is so much more than what textbooks can teach you. We’ve got learning experiences for everyone – students, corporates, faculty & professionals!</div>
 					</div>
 
 					<div class="points columns small-10 small-offset-1 large-5 large-offset-0">
-						<div class="point row">
-							<div class="h3 title columns small-10 small-offset-1">Travel. Experience. Learn. Repeat.</div>
-							<div class="underline columns small-5 small-offset-1 medium-3 large-2"><span class="fill-teal"></span></div>
-							<div class="p description columns small-10 small-offset-1 medium-7 medium-offset-0 large-5 large-8">
-								What you can learn from first-hand experiences in a culturally-diverse developing nation like India, is so much more than what textbooks can teach you. We’ve got learning experiences for everyone – students, corporates, faculty & professionals!
-							</div>
-						</div>
-
 						<div class="point row">
 							<div class="h3 title columns small-10 small-offset-1">Customised High-Impact Experiences</div>
 							<div class="underline columns small-5 small-offset-1 medium-3 large-2"><span class="fill-teal"></span></div>
@@ -457,12 +452,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<section class="packages-section" id="tour_packages">
 			<div class="container">
 				<div class="packages row">
-					<div class="h1 headline text-uppercase columns small-10 small-offset-1">Study Tour Packages</div>
+					<div class="h1 headline text-uppercase columns small-10 small-offset-1">Study Programs</div>
 					<div class="underline columns small-5 small-offset-1 medium-3 large-2"><span class="fill-pink"></span></div>
-					<div class="h3 title text-pink columns small-10 small-offset-1 medium-7 medium-offset-0 large-8">
-						Trending Innovations & Business Experience Programs
+					<div class="h3 title text-pink columns small-10 small-offset-1 medium-7 medium-offset-0 large-5">
+						Trending Innovations and <br>Business Experience Programs
 					</div>
-					<div class="p description text-dark columns small-10 small-offset-1 medium-7 medium-offset-4 medium-offset-0 large-7 large-offset-3">
+					<div class="p description text-dark text-justify columns small-10 small-offset-1 medium-7 medium-offset-4 medium-offset-0 large-5 large-offset-3">
 						<br>We believe that exposure to international business ideas and innovations serves as an eye-opener to factors that influence the global marketplace. It also gives you a heightened sense of cultural awareness that helps put the prevalent business environment in perspective. <br><br>
 						Give us two weeks and we guarantee you’ll go back with a wealth of academic, experiential and cultural experiences that will change the way you view the world. <br><br>
 						From seeing to learning to applying to innovating… your journey begins with us! <br>
@@ -500,12 +495,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 									<?php endforeach; ?>
 								</div>
 								<div class="h3 title"><?php echo $package->title ?></div>
-								<div class="h4 price text-pink"><span class="h3"><?php echo $package->price ?></span> per person</div>
-								<button class="button button-small fill-pink js_get_schedule" href="#" data-title="<?php echo $package->title ?>">
-									<span>Get a Detailed Itinerary</span>
-									<i class="icon material-icons">attach_file</i>
-								</button>
+								<div class="hidden h4 price text-pink"><span class="h3"><?php echo $package->price ?></span> per person</div>
 								<div class="p description"><?php echo $description ?></div>
+								<button class="button block fill-pink js_get_schedule" href="#" data-title="<?php echo $package->title ?>">
+									<span>Customize Your Program</span>
+									<!-- <i class="icon material-icons">attach_file</i> -->
+								</button>
 							</div>
 						<?php endforeach; ?>
 
@@ -534,7 +529,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<section class="tours-section fill-off-neutral" id="tours">
 			<div class="container">
 				<div class="tours row">
-					<div class="h1 headline text-uppercase columns small-10 small-offset-1">Tour Journals</div>
+					<div class="h1 headline text-uppercase columns small-10 small-offset-1">Journals</div>
 					<div class="underline columns small-5 small-offset-1 medium-3 large-2"><span class="fill-teal"></span></div>
 				</div>
 			</div>
@@ -542,7 +537,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<div class="container container-tours natural-scroll">
 				<div class="tours row">
 					<!-- DO NOT ACCIDENTALLY DELETE THIS RAWR~! -->
-					<?php /* <div class="tours-list natural-list js_tours_list columns small-12 large-10 large-offset-1">
+					<div class="tours-list natural-list js_tours_list columns small-12 large-10 large-offset-1">
 
 						<?php foreach ( $tours as $index => $tour ) : ?>
 							<?php
@@ -565,7 +560,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 											<div class="slide" style="background-image: <?php echo $image_of_the_day ?>;"></div>
 										<?php endforeach; ?>
 									</div>
-									<div class="time">
+									<div class="time hidden">
 										<span class="text-uppercase fill-teal"><?php echo $number_of_days ?> Days</span>
 										<div class="h3 text-cursive"><?php echo date( 'F Y', strtotime( $tour[ 'start_date' ] ) ) ?></div>
 									</div>
@@ -575,101 +570,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							</div>
 						<?php endforeach; ?>
 
-					</div> */ ?>
+					</div>
 
-					<!-- When there's more than one "completed tour" : Un-Comment the block above and delete this block -->
-					<div class="tours-list js_tours_list columns small-12 large-10 large-offset-1" style="margin-top: 0;">
-						<style type="text/css">
-							@media( min-width: 640px ){
-								.tour.tour.tour {
-									width: 515px;
-								}
-
-								.tour:focus	{
-									outline: 0;
-								}
-
-								.tour .thumbnail {
-									width: 250px;
-									display: inline-block;
-									vertical-align: top;
-								}
-
-								.tour .content {
-									width: 235px;
-									margin-left: 15px;
-									display: inline-block;
-									vertical-align: top;
-								}
-
-								@media( min-width: 1040px ){
-									.tour.tour.tour {
-										width: 100%;
-										padding-left: 165px;
-									}
-
-									.tour .thumbnail {
-										width: 263px;
-									}
-
-									.tour .content {
-										width: 315px;
-									}
-								}
-
-								@media( min-width: 1380px ){
-									.tour.tour.tour {
-										padding-left: 223px;
-									}
-
-									.tour .thumbnail {
-										width: 353px;
-									}
-
-									.tour .content {
-										margin-left: 20px;
-										width: 400px;
-									}
-								}
-							}
-						</style>
-
-						<?php foreach ( $tours as $index => $tour ) : ?>
-							<?php
-								$description = preg_replace( '/\R/', '<br>', $tour[ 'description' ] );
-								$number_of_days = count( $tour[ 'days' ] );
-								$duration_animation = ( $duration_visible + $duration_crossfade ) * $number_of_days;
-							?>
-							<div class="tour js_tour js_modal_trigger cursor-pointer" data-mod-id="<?php echo $tour[ 'id' ] ?>"  tabindex="0">
-
-								<div class="thumbnail">
-									<div class="slides js_slides">
-										<?php foreach ( $tour[ 'days' ] as $index => $day ) : ?>
-											<?php
-												if ( empty( $day[ 'gallery' ][ 0 ][ 'image' ] ) ) {
-													$image_of_the_day_A = 'url( \'/img/placeholder.png\' )';
-													$image_of_the_day_B = 'url( \'/img/placeholder.webp\' )';
-												} else {
-													$image_of_the_day_A = 'url( \'' . '/uploads/thumbnails/' . $day[ 'gallery' ][ 0 ][ 'image' ] . '\' )';
-													$image_of_the_day_B = 'url( \'' . '/uploads/thumbnails/' . preg_replace( '/\.(jpe?g|png)$/', '.webp', $day[ 'gallery' ][ 0 ][ 'image' ] ) . '\' )';
-												}
-											?>
-											<div class="slide" style="background-image: <?php echo $image_of_the_day_A ?>"></div>
-										<?php endforeach; ?>
-									</div>
-									<div class="time">
-										<span class="text-uppercase fill-teal"><?php echo $number_of_days ?> Days</span>
-										<div class="h3 text-cursive visuallyhidden"><?php echo date( 'F Y', strtotime( $tour[ 'start_date' ] ) ) ?></div>
-									</div>
-								</div>
-								<div class="content">
-									<div class="h3 title"><?php echo $tour[ 'organisation' ] ?></div>
-									<div class="p excerpt"><?php echo $description ?></div>
-								</div>
-							</div>
-						<?php endforeach; ?>
-
-					</div><!-- END : DELETE -->
 				</div>
 			</div>
 		</section> <!-- END : Tours Section -->
@@ -697,7 +599,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<div class="container">
 				<div class="booking row">
 
-					<div class="h1 headline text-uppercase columns small-10 small-offset-1">Get a Detailed Itinerary</div>
+					<div class="h1 headline text-uppercase columns small-10 small-offset-1">Customize Your Program</div>
 					<div class="underline columns small-5 small-offset-1 medium-3 large-2"><span class="fill-pink"></span></div>
 					<div class="booking-form columns small-10 small-offset-1 large-8 large-offset-0">
 						<div class="row">
@@ -711,7 +613,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 									<input class="block js_email_address" name="booking_email" id="booking_email" type="email">
 								</div>
 								<div class="form-item columns small-12 medium-6">
-									<label class="block required" for="booking_phone">Phone</label>
+									<label class="block" for="booking_phone">Phone</label>
 									<input class="block js_phone_number" name="booking_phone" id="booking_phone" type="text">
 								</div>
 								<div class="form-item columns small-12 medium-6">
@@ -719,11 +621,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 									<input class="block js_institute" name="booking_institute" id="booking_institute" type="text">
 								</div>
 								<div class="form-item columns small-12 medium-6">
-									<label class="block" for="form_booking_package">Pick a Tour Package</label>
+									<label class="block" for="form_booking_package">Pick a Theme</label>
 									<select class="block js_form_booking_package" name="booking_package" id="form_booking_package">
 										<option value="" disabled="disabled" selected="true">Select</option>
-										<?php foreach ( $packages as $package ) : ?>
+										<?php /* foreach ( $packages as $package ) : ?>
 											<option value="<?php echo $package->title ?>"><?php echo $package->label . ' [ ' . $package->price . ' ]' ?></option>
+										<?php endforeach; */ ?>
+										<?php foreach ( $packages as $package ) : ?>
+											<option value="<?php echo $package->title ?>"><?php echo $package->label ?></option>
 										<?php endforeach; ?>
 									</select>
 								</div>
@@ -740,13 +645,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					</div>
 
 					<!-- email action -->
-					<a href="mailto:tours@immersionindia.com" class="email-action columns small-10 small-offset-1 large-8 large-offset-3 js_enquire_email">
+					<a href="mailto:vineeth@immersionindia.com" class="email-action columns small-10 small-offset-1 large-8 large-offset-3 js_enquire_email">
 						<div class="icon inline-bottom">
 							<img class="block" src="img/icon-color-email.svg?v=181128">
 						</div>
 						<div class="inline-bottom">
 							<span class="block">or, drop us an email at&hellip;</span>
-							<span class="block email-id"><span class="text-underline">tours</span>@immersionindia.com</span>
+							<span class="block email-id"><span class="text-underline">vineeth</span>@immersionindia.com</span>
 						</div>
 					</a>
 
@@ -763,11 +668,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 					<div class="h1 headline columns small-10 small-offset-1 text-uppercase">Meet The Team</div>
 					<div class="underline columns small-5 small-offset-1 medium-3 large-2"><span class="fill-orange"></span></div>
+					<div class="p description columns small-10 small-offset-1 medium-10 large-6 large-offset-0">
+						A group of experienced, fun to work with, customer-focused individuals – we’ve got heaps of great ideas that take the shape of great learning experiences. We’re passionate about what we do and determined to deliver the best experiential study programs that showcase India’s brilliant urban and rural potential.
+						<br><br>
+						The leadership team has significant experience in the education sector, complemented by long-standing associations with top-ranked educational institutions. We have also worked with foreign universities, and played a decisive role in curating partnerships and experiences with their Indian counterparts.
+						<br><br>
+						The long-term working partnerships we’ve forged with many of our clients stand testament to the seamless study programs we’ve curated. Our experiences are completely flexible and we are happy to tackle any aspect of your visit, right from managing the whole trip to simply giving you an experienced set of hands on site.
+						<br><br>
+						Team up with us and ‘Let India Happen To You’!
+					</div>
 
 					<div class="profile clearfix">
 						<div class="picture columns small-10 small-offset-1 medium-4 large-3 large-offset-3 float-left">
 							<picture>
-								<!-- <source srcset="img/portrait_vineeth.webp?v=2.6.3" type="image/webp"> -->
 								<img class="block" src="img/portrait_vineeth.jpg?v=2.6.3">
 							</picture>
 						</div>
@@ -775,15 +688,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							<div class="h2 name">Vineeth Thomas</div>
 							<div class="p text-uppercase designation">Founder &amp; Managing Partner</div>
 						</div>
-						<div class="p description columns small-10 small-offset-1 medium-6 medium-offset-0 large-5 large-offset-0">
+						<!-- <div class="p description columns small-10 small-offset-1 medium-6 medium-offset-0 large-5 large-offset-0">
 							I am a business graduate with experience in International Education and Exchange. I have developed strategic global opportunities with foreign universities, keeping in mind a student's needs and interests. Before joining the education space, I worked with the Tata Group’s IT Division, on their Business Development team. When I am not working, I prefer studying photography, history, cultural intelligence or just traveling.
-						</div>
+						</div> -->
 					</div>
 
 					<div class="profile clearfix">
 						<div class="picture columns small-10 small-offset-1 medium-4 large-3 large-offset-3 float-left">
 							<picture>
-								<!-- <source srcset="img/portrait_anand.webp?v=2.6.3" type="image/webp"> -->
 								<img class="block" src="img/portrait_anand.jpg?v=2.6.3">
 							</picture>
 						</div>
@@ -791,9 +703,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							<div class="h2 name">Anand Joseph</div>
 							<div class="p text-uppercase designation">Founder &amp; Partner</div>
 						</div>
-						<div class="p description columns small-10 small-offset-1 medium-6 medium-offset-0 large-5 large-offset-0">
+						<!-- <div class="p description columns small-10 small-offset-1 medium-6 medium-offset-0 large-5 large-offset-0">
 							I am a business graduate. When I was a student intern, I had traveled extensively through the United States to spend time at various universities there. I currently spend time building rapport with students to understand their needs and aspirations, before counseling them on their career path. I stay with my family in Bangalore, India. Things that keep me busy otherwise are a keen interest in music, travel and keeping up with the capital markets.
-						</div>
+						</div> -->
 					</div>
 
 				</div>
@@ -816,12 +728,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								<small class="block" style="position: absolute; color: #7C7577; font-size: 1rem; white-space: nowrap; line-height: 0; left: 2px; bottom: -10px;">Also on WhatsApp &amp; FaceTime.</small>
 							</span>
 						</a>
-						<a class="block js_enquire_email" href="mailto:tours@immersionindia.com"><img class="inline-bottom" src="img/icon-email.svg?v=181128"><span class="inline-bottom">tours@immersionindia.com</span></a>
+						<a class="block js_enquire_email" href="mailto:vineeth@immersionindia.com"><img class="inline-bottom" src="img/icon-email.svg?v=181128"><span class="inline-bottom">vineeth@immersionindia.com</span></a>
 					</div>
-					<!-- <div class="columns small-10 small-offset-1 medium-6 medium-offset-0 large-5">
-					</div>
-					<div class="columns small-10 small-offset-1 medium-4 large-3 large-offset-3">
-					</div> -->
 					<div class="address columns small-10 small-offset-1 medium-6 medium-offset-0 large-4">
 						<a class="block" href="https://goo.gl/maps/F8LD2dLLjZ22" target="_blank"><img class="inline-bottom" src="img/icon-gmaps.svg?v=181128"><span class="inline-bottom">Immersion India.</span></a>
 						<div class="block address">
@@ -1244,7 +1152,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					</div>
 
 					<div class="tour-post row">
-						<div class="headline h1 text-cursive columns small-10 small-offset-1"><?php echo date( 'F Y', strtotime( $tour[ 'start_date' ] ) ) ?></div>
+						<div class="hidden headline h1 text-cursive columns small-10 small-offset-1"><?php echo date( 'F Y', strtotime( $tour[ 'start_date' ] ) ) ?></div>
 
 						<div class="title h2 columns small-10 small-offset-1"><?php echo $tour[ 'organisation' ] ?></div>
 						<div class="underline columns small-5 small-offset-1 medium-3 large-2"><span class="fill-teal"></span></div>

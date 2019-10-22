@@ -22,6 +22,10 @@
 	color: var(--dark);
 }
 
+.packages-section .packages >.description {
+	padding-bottom: 30px;
+}
+
 .packages-section .packages-list {
 	font-size: 0;
 	overflow-x: scroll;
@@ -107,7 +111,7 @@
 
 .packages-section .packages-list .package .description {
 	color: var(--dark);
-	margin-top: 30px;
+	padding: 15px 0;
 }
 
 .packages-section .packages-bg {
@@ -192,6 +196,10 @@
 @media( min-width: 1040px ) {
 	.packages-section {
 		padding: 120px 0;
+	}
+
+	.packages-section .packages >.description {
+		padding-bottom: 0px;
 	}
 
 	.packages-section .container.natural-scroll {
