@@ -1217,7 +1217,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 						</div>
 
-						<div class="columns small-10 small-offset-1 large-8 large-offset-3 js_text_load_images">
+						<div class="columns small-10 small-offset-1 large-8 large-offset-3 js_text_load_images" style="display: none">
 							<div class="h3 text-light">Load More Images</div>
 							<hr>
 							<br>
@@ -1703,9 +1703,18 @@ $(document).ready(function(){
 
 		$( ".js_tour" ).one( "click", function ( event ) {
 			var modalId = $( event.target ).closest( ".js_tour" ).data( "modId" );
-			$( ".js_modal_box_content" + "[ data-mod-id = " + modalId + " ]" )
-				.find( ".js_gallery_day_select" ).slice( 0, 3 )
+			var $modal = $( ".js_modal_box_content" + "[ data-mod-id = " + modalId + " ]" );
+
+			/* Auto-show the images from the first three days */
+			$modal.find( ".js_gallery_day_select" )
+				.slice( 0, 3 )
 				.trigger( "click" );
+
+			/* Show the "Load More Images" if not all the days have been visited */
+			var $daysLeft = $modal.find( ".js_gallery_day_select" );
+			if ( $daysLeft.length )
+				$modal.find( ".js_text_load_images" ).show();
+
 		} );
 
 		$( ".js_gallery_day_select" ).on( "click", function ( event ) {
