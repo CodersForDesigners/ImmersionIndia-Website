@@ -43,6 +43,11 @@
 
 .tour-post .day {}
 
+/* Don't show the day count if there's only one */
+.tour-post .day:first-child:last-child .day-count {
+	display: none;
+}
+
 .tour-post .day .day-count {
 	margin-bottom: 20px;
 }
