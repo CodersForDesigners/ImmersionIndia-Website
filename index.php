@@ -534,7 +534,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							<?php
 								$description = preg_replace( '/\R/', '<br>', $tour[ 'description' ] );
 								$number_of_days = count( $tour[ 'days' ] );
-								$duration_animation = ( $duration_visible + $duration_crossfade ) * $number_of_days;
+								// $duration_animation = ( $duration_visible + $duration_crossfade ) * $number_of_days;
 							?>
 							<div class="tour js_tour js_modal_trigger cursor-pointer" data-mod-id="<?php echo $tour[ 'id' ] ?>"  tabindex="0">
 
