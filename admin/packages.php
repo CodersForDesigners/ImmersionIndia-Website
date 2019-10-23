@@ -95,7 +95,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 		<!-- NEW PACKAGE -->
-		<header class="section"">
+		<header class="section">
 			<div class="container">
 				<div class="row">
 					<div class="columns ten offset-by-one">
@@ -143,13 +143,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							<small class="file-name js_file_name"></small>
 						</label>
 					</div>
+					<div class="form-row columns five">
+						<label>Cover Image<br>
+							<label class="input-file button button-icon inline">
+								<input type="file" accept="image/*" name="cover">
+								<i class="inline-middle material-icons">add_a_photo</i>
+							</label>
+							<small class="file-name js_file_name"></small>
+						</label>
+					</div>
 				</div>
 				<div class="columns ten offset-by-one"><br></div>
 				<div class="columns ten offset-by-one js_package_places">
 					<!-- New Location -->
 				</div>
 				<div class="columns ten offset-by-one"><br></div>
-				<div class="row">
+				<div class="row hidden"><!-- hide the location form -->
 					<div class="columns five offset-by-one">
 						<h5 class="text-uppercase">Add A Location</h5>
 					</div>
@@ -211,7 +220,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 									<textarea class="block" name="description"><?php echo $package->description ?></textarea>
 								</label>
 							</div>
-							<div class="form-row columns three offset-by-one">
+							<div class="form-row columns five offset-by-one">
 								<label>Schedule<br>
 									<label class="input-file button button-icon inline">
 										<input type="file" accept=".pdf" name="schedule" data-path="<?php echo $package->schedule ?>">
@@ -220,8 +229,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 									<small class="file-name js_file_name"><?php echo preg_replace( '/(__\d+(\.\d+)?)?\.(.*)/', '.${3}', $package->schedule ); ?></small>
 								</label>
 							</div>
+							<div class="form-row columns five">
+								<label>Cover Image<br>
+									<label class="input-file button button-icon inline">
+										<input type="file" accept="image/*" name="cover" data-path="<?php echo $package->locations[ 0 ]->image ?>">
+										<i class="inline-middle material-icons">add_a_photo</i>
+									</label>
+									<small class="file-name js_file_name">
+										<img src="/uploads/<?php echo $package->locations[ 0 ]->image ?>" alt="<?php echo preg_replace( '/(__\d+(\.\d+)?)?\.(.*)/', '.${3}', $package->locations[ 0 ]->image ); ?>">
+									</small>
+								</label>
+							</div>
 							<div class="columns ten offset-by-one"><br></div>
-							<div class="columns ten offset-by-one js_package_places">
+							<div class="columns ten offset-by-one js_package_places hidden">
 								<?php if ( ! empty( $package->locations ) ) { ?>
 									<?php foreach ( $package->locations as $location ) : ?>
 										<div class="form-row row package-place js_package_place" draggable="true">
@@ -260,10 +280,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								<?php } ?>
 							</div>
 							<div class="columns ten offset-by-one"><br></div>
-							<div class="columns five offset-by-one">
+							<div class="columns five offset-by-one hidden">
 								<h5 class="text-uppercase">Add A Location</h5>
 							</div>
-							<div class="columns five text-right">
+							<div class="columns five text-right hidden">
 								<button class="button button-icon js_package_place_add"><i class="material-icons">add_location</i></button>
 							</div>
 							<div class="columns ten offset-by-one">
