@@ -83,6 +83,7 @@
 .tours-section .tours-list .tour .thumbnail .slide {
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center center;
 	opacity: 0;
 	transition: opacity 0.3s ease-out;
 }
@@ -166,6 +167,7 @@
 	}
 
 	.tours-section .tours-list .tour {
+		width: 278px;
 		padding-right: 15px;
 		font-size: 1.4rem;
 	}
@@ -181,6 +183,7 @@
 	}
 
 	.tours-section .tours-list .tour {
+		width: 373px;
 		padding-right: 20px;
 		font-size: 1.6rem;
 	}

@@ -44,6 +44,16 @@
 	padding: 10px;
 }
 
+.packages-section .packages-list .package .alt-thumbnail {
+	padding-top: 80%;
+	margin-bottom: 10px;
+	background-size: cover;
+	background-position: center center;
+	background-image: url('../../../img/placeholder.png');
+	background-repeat: no-repeat;
+}
+
+/* -- This is not currently in use -_- -- */
 .packages-section .packages-list .package .thumbnail {
 	--max-package-height: 380px;
 	height: var(--max-package-height);
