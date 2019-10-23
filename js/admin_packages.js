@@ -55,14 +55,21 @@ $( ".js_package_add" ).on( "click", function ( event ) {
 	data.price = $form.find( "[ name = price ]" ).val();
 	data.description = $form.find( "[ name = description ]" ).val();
 	data.schedule = $form.find( "[ name = schedule ]" ).data( "path" ) || "";
-	data.locations = Array.from( $form.find( ".js_package_place" ) ).map( domPlace => {
-		$place = $( domPlace );
-		return {
-			city: $place.find( "[ name = city ]" ).val(),
-			days: $place.find( "[ name = days ]" ).val(),
-			image: $place.find( "[ name = image ]" ).data( "path" ) || ""
-		};
-	} );
+	data.cover = $form.find( "[ name = cover ]" ).data( "path" ) || "";
+	// We're re-appropriating the location field for the package cover image
+	data.locations = [ {
+		city: "Z",
+		days: "1",
+		image: $form.find( "[ name = cover ]" ).data( "path" ) || ""
+	} ];
+	// data.locations = Array.from( $form.find( ".js_package_place" ) ).map( domPlace => {
+	// 	$place = $( domPlace );
+	// 	return {
+	// 		city: $place.find( "[ name = city ]" ).val(),
+	// 		days: $place.find( "[ name = days ]" ).val(),
+	// 		image: $place.find( "[ name = image ]" ).data( "path" ) || ""
+	// 	};
+	// } );
 
 	// get place file objects from the file input fields
 	var placeFileObjects = Array.from( $form.find( "[ name = image ]" ) )
@@ -72,6 +79,8 @@ $( ".js_package_add" ).on( "click", function ( event ) {
 	// build a data object that can store file data
 	var formData = new FormData();
 	formData.append( "schedule", $form.find( "[ name = schedule ]" ).get( 0 ).files[ 0 ] );
+	// Add the cover image as a location
+	formData.append( "locations[]", $form.find( "[ name = cover ]" ).get( 0 ).files[ 0 ] );
 	placeFileObjects.forEach( file => formData.append( "locations[]", file ) );
 	formData.append( "data", JSON.stringify( data ) );
 	formData.append( "action", "create" );
@@ -129,14 +138,19 @@ $( ".js_package_update" ).on( "click", function ( event ) {
 	data.price = $form.find( "[ name = price ]" ).val();
 	data.description = $form.find( "[ name = description ]" ).val();
 	data.schedule = $form.find( "[ name = schedule ]" ).data( "path" ) || "";
-	data.locations = Array.from( $form.find( ".js_package_place" ) ).map( domPlace => {
-		$place = $( domPlace );
-		return {
-			city: $place.find( "[ name = city ]" ).val(),
-			days: $place.find( "[ name = days ]" ).val(),
-			image: $place.find( "[ name = image ]" ).data( "path" ) || ""
-		};
-	} );
+	data.locations = [ {
+		city: "",
+		days: "",
+		image: $form.find( "[ name = cover ]" ).data( "path" ) || ""
+	} ];
+	// data.locations = Array.from( $form.find( ".js_package_place" ) ).map( domPlace => {
+	// 	$place = $( domPlace );
+	// 	return {
+	// 		city: $place.find( "[ name = city ]" ).val(),
+	// 		days: $place.find( "[ name = days ]" ).val(),
+	// 		image: $place.find( "[ name = image ]" ).data( "path" ) || ""
+	// 	};
+	// } );
 
 	// get the "place" file objects from the file input fields
 	var placeFileObjects = Array.from( $form.find( "[ name = image ]" ) )
@@ -146,6 +160,8 @@ $( ".js_package_update" ).on( "click", function ( event ) {
 	// build a data object that can store file data
 	var formData = new FormData();
 	formData.append( "schedule", $form.find( "[ name = schedule ]" ).get( 0 ).files[ 0 ] );
+	// Add the cover image as a location
+	formData.append( "locations[]", $form.find( "[ name = cover ]" ).get( 0 ).files[ 0 ] );
 	placeFileObjects.forEach( file => formData.append( "locations[]", file ) );
 	formData.append( "meta", JSON.stringify( meta ) );
 	formData.append( "data", JSON.stringify( data ) );
