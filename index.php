@@ -444,7 +444,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<div class="h3 title text-pink columns small-10 small-offset-1 medium-7 medium-offset-0 large-5">
 						Trending Innovations and <br>Business Experience Programs
 					</div>
-					<div class="p description text-dark text-justify columns small-10 small-offset-1 medium-7 medium-offset-4 medium-offset-0 large-5 large-offset-3">
+					<div class="p description text-dark columns small-10 small-offset-1 medium-7 medium-offset-4 medium-offset-0 large-5 large-offset-3">
 						<br>We believe that exposure to international business ideas and innovations serves as an eye-opener to factors that influence the global marketplace. It also gives you a heightened sense of cultural awareness that helps put the prevalent business environment in perspective. <br><br>
 						Give us two weeks and we guarantee you’ll go back with a wealth of academic, experiential and cultural experiences that will change the way you view the world. <br><br>
 						From seeing to learning to applying to innovating… your journey begins with us! <br>
