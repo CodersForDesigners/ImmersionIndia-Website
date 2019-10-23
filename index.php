@@ -459,10 +459,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<?php foreach ( $packages as $package ) : ?>
 							<?php
 								$description = preg_replace( '/\R/', '<br>', $package->description );
+								$image = $package->locations[ 0 ]->image ?: '';
+								if ( ! empty( $image ) )
+									$image = '/uploads/' . $image;
 							?>
 							<div class="package js_package" tabindex="0">
 								<div class="days-title fill-dark h4 text-uppercase"><?php echo $package->label ?></div>
-								<div class="alt-thumbnail block" style="background-image: url( '/img/placeholder.png?v=191023');"></div>
+								<div class="alt-thumbnail block" style="background-image: url( '<?php echo $image ?>');"></div>
 								<!-- <div class="thumbnail">
 									<?php /* foreach ( $package->locations as $location ) : ?>
 										<?php
