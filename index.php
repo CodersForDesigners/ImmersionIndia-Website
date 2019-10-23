@@ -1702,7 +1702,7 @@ $(document).ready(function(){
 	 */
 
 		$( ".js_tour" ).one( "click", function ( event ) {
-			var modalId = $( ".js_tour" ).data( "modId" );
+			var modalId = $( event.target ).closest( ".js_tour" ).data( "modId" );
 			$( ".js_modal_box_content" + "[ data-mod-id = " + modalId + " ]" )
 				.find( ".js_gallery_day_select" ).slice( 0, 3 )
 				.trigger( "click" );
