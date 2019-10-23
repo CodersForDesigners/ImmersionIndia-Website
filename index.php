@@ -535,20 +535,29 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								$description = preg_replace( '/\R/', '<br>', $tour[ 'description' ] );
 								$number_of_days = count( $tour[ 'days' ] );
 								// $duration_animation = ( $duration_visible + $duration_crossfade ) * $number_of_days;
+								$tourHighlightImages = [ ];
+								foreach ( $tour[ 'days' ] as $day ) {
+									$dayHighlightImage = $day[ 'gallery' ][ 0 ][ 'image' ];
+									if ( $dayHighlightImage )
+										$tourHighlightImages[ ] = $dayHighlightImage;
+								}
+								if ( count( $tourHighlightImages ) == 1 ) {
+									$tourHighlightImages = array_slice( array_column( $tour[ 'days' ][ 0 ][ 'gallery' ], 'image' ), 0, 5 );
+								}
+								if ( ! count( $tourHighlightImages ) )
+									$tourHighlightImages[ ] = '/img/placeholder.png';
+								else {
+									$tourHighlightImages = array_map( function ( $image ) {
+										return '/uploads/thumbnails/' . $image;
+									}, $tourHighlightImages );
+								}
 							?>
-							<div class="tour js_tour js_modal_trigger cursor-pointer" data-mod-id="<?php echo $tour[ 'id' ] ?>"  tabindex="0">
+							<div class="tour js_tour js_modal_trigger cursor-pointer" data-mod-id="<?php echo $tour[ 'id' ] ?>" tabindex="0">
 
 								<div class="thumbnail">
 									<div class="slides js_slides">
-										<?php foreach ( $tour[ 'days' ] as $index => $day ) : ?>
-											<?php
-												if ( empty( $day[ 'gallery' ][ 0 ][ 'image' ] ) ) {
-													$image_of_the_day = 'url( \'/img/placeholder.png?v=191023\' )';
-												} else {
-													$image_of_the_day = 'url( \'' . '/uploads/' . $day[ 'gallery' ][ 0 ][ 'image' ] . '\' )';
-												}
-											?>
-											<div class="slide" style="background-image: <?php echo $image_of_the_day ?>;"></div>
+										<?php foreach ( $tourHighlightImages as $image ) : ?>
+											<div class="slide" style="background-image: url( '<?php echo $image ?>' )"></div>
 										<?php endforeach; ?>
 									</div>
 									<div class="time hidden">
