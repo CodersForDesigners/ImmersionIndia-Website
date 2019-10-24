@@ -20,6 +20,10 @@
 	padding: 0 0 15px;
 }
 
+.intro-section .intro .headline .subdescription {
+	line-height: 2;
+}
+
 .intro-section .intro .points {
 	margin-bottom: 180px;
 }

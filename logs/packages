@@ -26,3 +26,7 @@
 {"timestamp":"2019-10-24 15:19:04","context":"Attempting to process the file using TinyPNG","data":{"type":"error","file":"uoco_june_2017_day_07_6__1507616036.04443400__1571910419.00528100.jpg","message":"Error while connecting: HTTP\/2 stream 0 was not closed cleanly: PROTOCOL_ERROR (err 1) (#92)"}},
 {"timestamp":"2019-10-24 15:20:35","context":"Attempting to process the file using cwebp","data":{"type":"error","file":"uoco_june_2017_day_07_6__1507616036.04443400__1571910419.00528100"}},
 {"timestamp":"2019-10-24 15:20:35","context":"Attempting to process the file using cwebp","data":{"type":"error","file":"uoco_june_2017_day_07_6__1507616036.04443400__1571910419.00528100"}},
+{"timestamp":"2019-10-24 15:57:10","context":"Attempting to process the file using cwebp","data":{"type":"error","file":"uoco_june_2017_day_07_13__1507616036.04448600__1571912819.51119400"}},
+{"timestamp":"2019-10-24 15:57:10","context":"Attempting to process the file using cwebp","data":{"type":"error","file":"uoco_june_2017_day_07_13__1507616036.04448600__1571912819.51119400"}},
+{"timestamp":"2019-10-24 15:58:41","context":"Attempting to process the file using cwebp","data":{"type":"error","file":"uoco_june_2017_day_07_6__1507616036.04443400__1571912845.40573900"}},
+{"timestamp":"2019-10-24 15:58:41","context":"Attempting to process the file using cwebp","data":{"type":"error","file":"uoco_june_2017_day_07_6__1507616036.04443400__1571912845.40573900"}},

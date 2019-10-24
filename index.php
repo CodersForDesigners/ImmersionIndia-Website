@@ -268,7 +268,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<div class="h2">We guide students, corporate executives, faculty & professionals on <strong>study-centric, experiential learning programs in urban and rural India</strong>.</div>
 						<div class="underline columns small-6 medium-4 large-5"><span class="fill-teal"></span></div>
 						<div class="h3 subheading"><strong>Travel. Experience. Learn. Repeat.</strong></div>
-						<div class="p">What you can learn from first-hand experiences in a culturally-diverse developing nation like India, is so much more than what textbooks can teach you. We’ve got learning experiences for everyone – students, corporates, faculty & professionals!</div>
+						<div class="p subdescription">What you can learn from first-hand experiences in a culturally-diverse developing nation like India, is so much more than what textbooks can teach you. We’ve got learning experiences for everyone – students, corporates, faculty & professionals!</div>
 					</div>
 
 					<div class="points columns small-10 small-offset-1 large-5 large-offset-0">
@@ -442,11 +442,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<div class="h1 headline text-uppercase columns small-10 small-offset-1">Study Programs</div>
 					<div class="underline columns small-5 small-offset-1 medium-3 large-2"><span class="fill-pink"></span></div>
 					<div class="h3 title text-pink columns small-10 small-offset-1 medium-7 medium-offset-0 large-5">
-						Trending Innovations and <br>Business Experience Programs
+						Thematic Study Topics
 					</div>
-					<div class="p description text-dark columns small-10 small-offset-1 medium-7 medium-offset-4 medium-offset-0 large-5 large-offset-3">
-						<br>We believe that an exposure to India's business, Culture and History serves as an eye-opener to understanding this magnificent country . It also gives you a heightened sense of cultural awareness that helps put the prevalent global environment in perspective. Give us two weeks and we guarantee you’ll go back with a wealth of academic, experiential and cultural experiences that will change the way you view the world. <br><br>
-						From seeing to learning to applying to innovating… your journey begins with us! <br>
+					<div class="p description text-dark columns small-10 small-offset-1 medium-7 medium-offset-4 medium-offset-0 large-7 large-offset-3">
+						<br>We believe that an exposure to India's business, Culture and History serves as an eye-opener to understanding this magnificent country . It also gives you a heightened sense of cultural awareness that helps put the prevalent global environment in perspective. Give us two weeks and we guarantee you’ll go back with a wealth of academic, experiential and cultural experiences that will change the way you view the world. From seeing to learning to applying to innovating… your journey begins with us! <br>
 					</div>
 				</div>
 			</div>
@@ -1142,9 +1141,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		</div><!-- END : Frequently Asked Questions (FAQs) -->
 
 		<?php foreach ( $tours as $index => $tour ) : ?>
-			<?php
-				$description = preg_replace( '/\R/', '<br>', $tour[ 'description' ] );
-			?>
 			<!-- Modal Content : Tour Post -->
 			<div class="modal-box-content js_modal_box_content <?php if ( $view == $tour[ 'id' ] ) : ?> active <?php endif; ?>" data-mod-id="<?php echo $tour[ 'id' ] ?>" data-org="<?php echo $tour[ 'organisation' ] ?>">
 				<div class="container">
@@ -1157,7 +1153,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<div class="tour-post row">
 						<div class="hidden headline h1 text-cursive columns small-10 small-offset-1"><?php echo date( 'F Y', strtotime( $tour[ 'start_date' ] ) ) ?></div>
 
-						<div class="title h2 columns small-10 small-offset-1"><?php echo $tour[ 'organisation' ] ?></div>
+						<div class="hidden title h2 columns small-10 small-offset-1"><?php echo $tour[ 'organisation' ] ?></div>
 						<div class="underline columns small-5 small-offset-1 medium-3 large-2"><span class="fill-teal"></span></div>
 						<div class="description h4 columns small-10 small-offset-1 large-8 large-offset-0 text-neutral"><?php echo $description ?>
 							<div class="block share-url js_share_url_widget">
