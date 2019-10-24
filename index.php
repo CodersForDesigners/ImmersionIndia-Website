@@ -1142,6 +1142,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		</div><!-- END : Frequently Asked Questions (FAQs) -->
 
 		<?php foreach ( $tours as $index => $tour ) : ?>
+			<?php
+				$description = preg_replace( '/\R/', '<br>', $tour[ 'description' ] );
+			?>
 			<!-- Modal Content : Tour Post -->
 			<div class="modal-box-content js_modal_box_content <?php if ( $view == $tour[ 'id' ] ) : ?> active <?php endif; ?>" data-mod-id="<?php echo $tour[ 'id' ] ?>" data-org="<?php echo $tour[ 'organisation' ] ?>">
 				<div class="container">
