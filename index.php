@@ -398,6 +398,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						</span>
 					</div>
 
+					<div class="fact">
+						<div class="image slide_6"></div>
+						<span class="caption-box">
+							<div class="container">
+								<div class="columns small-10 small-offset-1 medium-8 medium-offset-2 large-6 large-offset-3 xlarge-6 xlarge-offset-3 text-center">
+									<span class="p caption">
+										<!-- Insert Caption -->
+									</span>
+								</div>
+							</div>
+						</span>
+					</div>
+
 				</div> <!-- END : slick -->
 
 			</div>
