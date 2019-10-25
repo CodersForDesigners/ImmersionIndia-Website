@@ -359,7 +359,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						</span>
 					</div>
 
-					<div class="fact">
+					<!-- <div class="fact">
 						<div class="image slide_3"></div>
 						<span class="caption-box">
 							<div class="container">
@@ -370,7 +370,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								</div>
 							</div>
 						</span>
-					</div>
+					</div> -->
 
 					<div class="fact">
 						<div class="image slide_4"></div>
