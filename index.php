@@ -107,7 +107,7 @@
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 	<!-- Stylesheet -->
-	<link rel="stylesheet" type="text/css" href="style.css?v=191031">
+	<link rel="stylesheet" type="text/css" href="style.css?v=191031_1">
 
 	<!-- jQuery 3 -->
 	<script type="text/javascript" src="/js/jquery-3.0.0.min.js?v=191031"></script>
