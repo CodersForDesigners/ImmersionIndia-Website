@@ -107,17 +107,17 @@
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 	<!-- Stylesheet -->
-	<link rel="stylesheet" type="text/css" href="style.css?v=191024">
+	<link rel="stylesheet" type="text/css" href="style.css?v=191031">
 
 	<!-- jQuery 3 -->
-	<script type="text/javascript" src="/js/jquery-3.0.0.min.js?v=191024"></script>
+	<script type="text/javascript" src="/js/jquery-3.0.0.min.js?v=191031"></script>
 
 	<!-- Codyhouse Animating Headline -->
-	<link rel="stylesheet" type="text/css" href="plugins/cd-headline/css/style.css?v=191024"/>
+	<link rel="stylesheet" type="text/css" href="plugins/cd-headline/css/style.css?v=191031"/>
 
 	<!-- Slick Carousel -->
-	<link rel="stylesheet" type="text/css" href="plugins/slick/slick.css?v=191024"/>
-	<link rel="stylesheet" type="text/css" href="plugins/slick/slick-theme.css?v=191024"/>
+	<link rel="stylesheet" type="text/css" href="plugins/slick/slick.css?v=191031"/>
+	<link rel="stylesheet" type="text/css" href="plugins/slick/slick-theme.css?v=191031"/>
 
 </head>
 
@@ -227,7 +227,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<div class="landing row">
 				<div class="logo-strip">
 					<div class="logo">
-						<img src="img/logo-light.svg?v=191024">
+						<img src="img/logo-light.svg?v=191031">
 					</div>
 				</div>
 				<div class="container">
@@ -309,18 +309,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			</div>
 			<div class="intro-bg watercolor-taj">
 				<picture class="container-img">
-					<source src="img/watercolor-taj.webp?v=191024" type="image/webp">
-					<img src="img/watercolor-taj.png?v=191024">
+					<source src="img/watercolor-taj.webp?v=191031" type="image/webp">
+					<img src="img/watercolor-taj.png?v=191031">
 				</picture>
 			</div>
 			<div class="intro-bg watercolor-splash-1">
 				<picture class="container-img">
-					<source src="img/watercolor-splash-1.webp?v=191024" type="image/webp">
-					<img src="img/watercolor-splash-1.png?v=191024">
+					<source src="img/watercolor-splash-1.webp?v=191031" type="image/webp">
+					<img src="img/watercolor-splash-1.png?v=191031">
 				</picture>
 			</div>
 			<!-- <div class="intro-bg watercolor-splash-2">
-				<img src="img/watercolor-splash-2.png?v=191024">
+				<img src="img/watercolor-splash-2.png?v=191031">
 			</div> -->
 		</section> <!-- END : Intro Section -->
 
@@ -437,7 +437,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<!-- Video Section -->
 		<section class="video-section fill-dark hidden js_video_section">
 			<div class="video-container">
-				<video id="tour_summary_video" class="" src="video/landing-video.mp4?v=191024" muted webkit-playsinline playsinline loop></video>
+				<video id="tour_summary_video" class="" src="video/landing-video.mp4?v=191031" muted webkit-playsinline playsinline loop></video>
 				<div class="video-poster js_video_poster" data-for="tour_summary_video"></div>
 				<div class="overlay-pattern"></div>
 				<button class="video-controls js_video_controls" data-for="tour_summary_video">
@@ -481,7 +481,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 									<?php /* foreach ( $package->locations as $location ) : ?>
 										<?php
 											if ( empty( $location->image ) ) {
-												$imageURL_A = '/img/placeholder.png?v=191024';
+												$imageURL_A = '/img/placeholder.png?v=191031';
 												$imageURL_B = '/img/placeholder.webp';
 											} else {
 												$imageURL_A = '/uploads/thumbnails/' . $location->image;
@@ -512,15 +512,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 			<div class="packages-bg watercolor-train">
 				<picture class="container-img">
-					<source srcset="img/watercolor-train.webp?v=191024" type="image/webp">
-					<img src="img/watercolor-train.png?v=191024">
+					<source srcset="img/watercolor-train.webp?v=191031" type="image/webp">
+					<img src="img/watercolor-train.png?v=191031">
 				</picture>
 			</div>
 
 			<div class="packages-bg watercolor-splash-3">
 				<picture class="container-img">
-					<source srcset="img/watercolor-splash-3.webp?v=191024" type="image/webp">
-					<img src="img/watercolor-splash-3.png?v=191024">
+					<source srcset="img/watercolor-splash-3.webp?v=191031" type="image/webp">
+					<img src="img/watercolor-splash-3.png?v=191031">
 				</picture>
 			</div>
 		</section> <!-- END : Packages Section -->
@@ -658,7 +658,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<!-- email action -->
 					<a href="mailto:vineeth@immersionindia.com" class="email-action columns small-10 small-offset-1 large-8 large-offset-3 js_enquire_email">
 						<div class="icon inline-bottom">
-							<img class="block" src="img/icon-color-email.svg?v=191024">
+							<img class="block" src="img/icon-color-email.svg?v=191031">
 						</div>
 						<div class="inline-bottom">
 							<span class="block">or, drop us an email at&hellip;</span>
@@ -730,20 +730,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<div class="container">
 				<div class="footer row">
 					<div class="logo">
-						<div class="columns small-6 small-offset-1 medium-3 large-offset-3"><img class="block" src="img/logo-light-full.svg?v=191024"></div>
+						<div class="columns small-6 small-offset-1 medium-3 large-offset-3"><img class="block" src="img/logo-light-full.svg?v=191031"></div>
 					</div>
 					<div class="columns small-10 small-offset-1 medium-4 large-3 large-offset-3">
 						<a class="block js_enquire_phone" href="tel:+919591658632">
-							<img class="inline-bottom" src="img/icon-phone.svg?v=191024">
+							<img class="inline-bottom" src="img/icon-phone.svg?v=191031">
 							<span class="inline-bottom" style="position: relative;">+91 95916 58632
 								<small class="block" style="position: absolute; color: #7C7577; font-size: 1rem; white-space: nowrap; line-height: 0; left: 2px; bottom: -10px;">Also on WhatsApp &amp; FaceTime.</small>
 							</span>
 						</a>
-						<a class="block js_enquire_email" href="mailto:vineeth@immersionindia.com"><img class="inline-bottom" src="img/icon-email.svg?v=191024"><span class="inline-bottom">vineeth@immersionindia.com</span></a>
+						<a class="block js_enquire_email" href="mailto:vineeth@immersionindia.com"><img class="inline-bottom" src="img/icon-email.svg?v=191031"><span class="inline-bottom">vineeth@immersionindia.com</span></a>
 					</div>
 					<div class="address columns small-10 small-offset-1 medium-6 medium-offset-0 large-4">
-						<a class="block" href="https://in.linkedin.com/company/immersion-india" target="_blank"><img class="inline-bottom" src="img/icon-linkedin.svg?v=191024"><span class="inline-bottom">Connect on LinkedIn</span></a>
-						<a class="block" href="https://goo.gl/maps/F8LD2dLLjZ22" target="_blank"><img class="inline-bottom" src="img/icon-gmaps.svg?v=191024"><span class="inline-bottom">Immersion India.</span></a>
+						<a class="block" href="https://in.linkedin.com/company/immersion-india" target="_blank"><img class="inline-bottom" src="img/icon-linkedin.svg?v=191031"><span class="inline-bottom">Connect on LinkedIn</span></a>
+						<a class="block" href="https://goo.gl/maps/F8LD2dLLjZ22" target="_blank"><img class="inline-bottom" src="img/icon-gmaps.svg?v=191031"><span class="inline-bottom">Immersion India.</span></a>
 						<div class="block address">
 							303, Milwaukee, 40 Promenade Road, Frazer Town.
 							Bangalore—560005. Karnataka. India.
@@ -1162,7 +1162,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<div class="container">
 					<div class="row">
 						<div class="columns small-10 small-offset-1 medium-5 large-4">
-							<img src="img/logo-light.svg?v=191024" style="margin-bottom: 40px;">
+							<img src="img/logo-light.svg?v=191031" style="margin-bottom: 40px;">
 						</div>
 					</div>
 
@@ -1211,7 +1211,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 												</div>
 												<picture>
 												<?php if ( empty( $image[ 'image' ] ) ) : ?>
-													<img src="/img/placeholder.png?v=191024">
+													<img src="/img/placeholder.png?v=191031">
 												<?php else : ?>
 													<?php
 														$baseImageURL = '/uploads/thumbnails/' . pathinfo( $image[ 'image' ] )[ 'filename' ];
@@ -1315,14 +1315,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 <!-- JS Modules -->
-<script type="text/javascript" src="js/modules/navigation.js?v=191024"></script>
-<script type="text/javascript" src="js/modules/video_embed.js?v=191024"></script>
-<script type="text/javascript" src="js/modules/modal_box.js?v=191024"></script>
-<script type="text/javascript" src="js/modules/smoothscroll.js?v=191024"></script>
-<script type="text/javascript" src="js/modules/form.js?v=191024"></script>
-<script type="text/javascript" src="js/modules/analytics.js?v=191024"></script>
-<script type="text/javascript" src="plugins/slick/slick.min.js?v=191024"></script>
-<script type="text/javascript" src="plugins/cd-headline/js/main.js?v=191024"></script>
+<script type="text/javascript" src="js/modules/navigation.js?v=191031"></script>
+<script type="text/javascript" src="js/modules/video_embed.js?v=191031"></script>
+<script type="text/javascript" src="js/modules/modal_box.js?v=191031"></script>
+<script type="text/javascript" src="js/modules/smoothscroll.js?v=191031"></script>
+<script type="text/javascript" src="js/modules/form.js?v=191031"></script>
+<script type="text/javascript" src="js/modules/analytics.js?v=191031"></script>
+<script type="text/javascript" src="plugins/slick/slick.min.js?v=191031"></script>
+<script type="text/javascript" src="plugins/cd-headline/js/main.js?v=191031"></script>
 
 <script type="text/javascript">
 
