@@ -80,7 +80,7 @@
 	padding-top: 1px;
 	padding-bottom: 75%;
 
-	background-image: url( "/img/landing-background-400x2.jpg" );
+	background-image: url( "/img/landing-background-400x2.jpg?v=191031" );
 	background-size: cover;
 	background-position: center center;
 }
@@ -91,7 +91,7 @@
 
 @media ( min-width: 640px ) {
 	.landing-section .landing-video .video-fallback {
-		background-image: url( "/img/landing-background-800x2.jpg" );
+		background-image: url( "/img/landing-background-800x2.jpg?v=191031" );
 	}
 }
 
