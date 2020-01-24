@@ -204,7 +204,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<div class="landing-video youtube-embed-bg js_embed_bg_yt">
 
 				<div class="video-fallback js_video_fallback"></div>
-				<iframe id="youtube_video_embed" width="1280" height="1600" src="https://www.youtube.com/embed/ibix7HK9_dA?enablejsapi=1&html5=1&mute=1&color=white&controls=0&disablekb=1&fs=0&autoplay=0&loop=0&modestbranding=1&playsinline=1&rel=0&showinfo=0&end=83" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe id="youtube_video_embed" width="1280" height="1600" src="https://www.youtube.com/embed/uYX4uDXS3Kw?enablejsapi=1&html5=1&mute=1&color=white&controls=0&disablekb=1&fs=0&autoplay=0&loop=0&modestbranding=1&playsinline=1&rel=0&showinfo=0&end=83" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 				<!-- <div class="youtube_embed" data-src="https://www.youtube.com/embed/Scxs7L0vhZ4?rel=0&controls=0&showinfo=0&rel=0&mute=1&autoplay=1&loop=1" style="padding-top: 56.25%; padding-bottom: 0.14%;">
 					<div class="youtube_load"></div>
