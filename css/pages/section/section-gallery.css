@@ -20,19 +20,19 @@
 	/*background-blend-mode: luminosity;*/
 }
 
-/*.webp .gallery-section .gallery .fact .image.slide_1 { background-image: url( "/img-mobile/facts-gallery/slide_1.jpg?v=191031" ); }*/
-/*.webp .gallery-section .gallery .fact .image.slide_2 { background-image: url( "/img-mobile/facts-gallery/slide_2.jpg?v=191031" ); }*/
-/*.webp .gallery-section .gallery .fact .image.slide_3 { background-image: url( "/img-mobile/facts-gallery/slide_3.jpg?v=191031" ); }*/
-/*.webp .gallery-section .gallery .fact .image.slide_4 { background-image: url( "/img-mobile/facts-gallery/slide_4.jpg?v=191031" ); }*/
-/*.webp .gallery-section .gallery .fact .image.slide_5 { background-image: url( "/img-mobile/facts-gallery/slide_5.jpg?v=191031" ); }*/
-/*.webp .gallery-section .gallery .fact .image.slide_6 { background-image: url( "/img-mobile/facts-gallery/slide_6.jpg?v=191031" ); }*/
+/*.webp .gallery-section .gallery .fact .image.slide_1 { background-image: url( "/img-mobile/facts-gallery/slide_1.jpg?v=200124" ); }*/
+/*.webp .gallery-section .gallery .fact .image.slide_2 { background-image: url( "/img-mobile/facts-gallery/slide_2.jpg?v=200124" ); }*/
+/*.webp .gallery-section .gallery .fact .image.slide_3 { background-image: url( "/img-mobile/facts-gallery/slide_3.jpg?v=200124" ); }*/
+/*.webp .gallery-section .gallery .fact .image.slide_4 { background-image: url( "/img-mobile/facts-gallery/slide_4.jpg?v=200124" ); }*/
+/*.webp .gallery-section .gallery .fact .image.slide_5 { background-image: url( "/img-mobile/facts-gallery/slide_5.jpg?v=200124" ); }*/
+/*.webp .gallery-section .gallery .fact .image.slide_6 { background-image: url( "/img-mobile/facts-gallery/slide_6.jpg?v=200124" ); }*/
 
-.gallery-section .gallery .fact .image.slide_1 { background-image: url( "/img-mobile/facts-gallery/slide_1.jpg?v=191031" ); }
-.gallery-section .gallery .fact .image.slide_2 { background-image: url( "/img-mobile/facts-gallery/slide_2.jpg?v=191031" ); }
-.gallery-section .gallery .fact .image.slide_3 { background-image: url( "/img-mobile/facts-gallery/slide_3.jpg?v=191031" ); }
-.gallery-section .gallery .fact .image.slide_4 { background-image: url( "/img-mobile/facts-gallery/slide_4.jpg?v=191031_1" ); }
-.gallery-section .gallery .fact .image.slide_5 { background-image: url( "/img-mobile/facts-gallery/slide_5.jpg?v=191031" ); }
-.gallery-section .gallery .fact .image.slide_6 { background-image: url( "/img-mobile/facts-gallery/slide_6.jpg?v=191031" ); }
+.gallery-section .gallery .fact .image.slide_1 { background-image: url( "/img-mobile/facts-gallery/slide_1.jpg?v=200124" ); }
+.gallery-section .gallery .fact .image.slide_2 { background-image: url( "/img-mobile/facts-gallery/slide_2.jpg?v=200124" ); }
+.gallery-section .gallery .fact .image.slide_3 { background-image: url( "/img-mobile/facts-gallery/slide_3.jpg?v=200124" ); }
+.gallery-section .gallery .fact .image.slide_4 { background-image: url( "/img-mobile/facts-gallery/slide_4.jpg?v=200124_1" ); }
+.gallery-section .gallery .fact .image.slide_5 { background-image: url( "/img-mobile/facts-gallery/slide_5.jpg?v=200124" ); }
+.gallery-section .gallery .fact .image.slide_6 { background-image: url( "/img-mobile/facts-gallery/slide_6.jpg?v=200124" ); }
 
 .gallery-section .gallery .fact .image:before {
 	content: '';
@@ -47,6 +47,7 @@
 	background: -moz-linear-gradient(top,  rgba(0,0,0,0.7) 10%, rgba(0,0,0,0) 100%);
 	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.7) 10%,rgba(0,0,0,0) 100%);
 	background: linear-gradient(to bottom,  rgba(0,0,0,0.7) 10%,rgba(0,0,0,0) 100%);
+	opacity: 0.15;
 }
 
 .gallery-section .gallery .fact .image:after {
@@ -62,6 +63,7 @@
 	background: -moz-linear-gradient(top,  rgba(0,0,0,0) 10%, rgba(0,0,0,0.95) 100%);
 	background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 10%,rgba(0,0,0,0.95) 100%);
 	background: linear-gradient(to bottom,  rgba(0,0,0,0) 10%,rgba(0,0,0,0.95) 100%);
+	opacity: 0.65;
 }
 
 .gallery-section .gallery .fact .caption-box {
@@ -103,19 +105,19 @@
 }
 
 @media( min-width: 800px ) {
-	/*.webp .gallery-section .gallery .fact .image.slide_1 { background-image: url( "/img/facts-gallery/slide_1.webp?v=191031" ); }*/
-	/*.webp .gallery-section .gallery .fact .image.slide_2 { background-image: url( "/img/facts-gallery/slide_2.webp?v=191031" ); }*/
-	/*.webp .gallery-section .gallery .fact .image.slide_3 { background-image: url( "/img/facts-gallery/slide_3.webp?v=191031" ); }*/
-	/*.webp .gallery-section .gallery .fact .image.slide_4 { background-image: url( "/img/facts-gallery/slide_4.webp?v=191031" ); }*/
-	/*.webp .gallery-section .gallery .fact .image.slide_5 { background-image: url( "/img/facts-gallery/slide_5.webp?v=191031" ); }*/
-	/*.webp .gallery-section .gallery .fact .image.slide_6 { background-image: url( "/img/facts-gallery/slide_6.webp?v=191031" ); }*/
+	/*.webp .gallery-section .gallery .fact .image.slide_1 { background-image: url( "/img/facts-gallery/slide_1.webp?v=200124" ); }*/
+	/*.webp .gallery-section .gallery .fact .image.slide_2 { background-image: url( "/img/facts-gallery/slide_2.webp?v=200124" ); }*/
+	/*.webp .gallery-section .gallery .fact .image.slide_3 { background-image: url( "/img/facts-gallery/slide_3.webp?v=200124" ); }*/
+	/*.webp .gallery-section .gallery .fact .image.slide_4 { background-image: url( "/img/facts-gallery/slide_4.webp?v=200124" ); }*/
+	/*.webp .gallery-section .gallery .fact .image.slide_5 { background-image: url( "/img/facts-gallery/slide_5.webp?v=200124" ); }*/
+	/*.webp .gallery-section .gallery .fact .image.slide_6 { background-image: url( "/img/facts-gallery/slide_6.webp?v=200124" ); }*/
 
-	.gallery-section .gallery .fact .image.slide_1 { background-image: url( "/img/facts-gallery/slide_1.jpg?v=191031" ); }
-	.gallery-section .gallery .fact .image.slide_2 { background-image: url( "/img/facts-gallery/slide_2.jpg?v=191031" ); }
-	.gallery-section .gallery .fact .image.slide_3 { background-image: url( "/img/facts-gallery/slide_3.jpg?v=191031" ); }
-	.gallery-section .gallery .fact .image.slide_4 { background-image: url( "/img/facts-gallery/slide_4.jpg?v=191031_1" ); }
-	.gallery-section .gallery .fact .image.slide_5 { background-image: url( "/img/facts-gallery/slide_5.jpg?v=191031" ); }
-	.gallery-section .gallery .fact .image.slide_6 { background-image: url( "/img/facts-gallery/slide_6.jpg?v=191031" ); }
+	.gallery-section .gallery .fact .image.slide_1 { background-image: url( "/img/facts-gallery/slide_1.jpg?v=200124" ); }
+	.gallery-section .gallery .fact .image.slide_2 { background-image: url( "/img/facts-gallery/slide_2.jpg?v=200124" ); }
+	.gallery-section .gallery .fact .image.slide_3 { background-image: url( "/img/facts-gallery/slide_3.jpg?v=200124" ); }
+	.gallery-section .gallery .fact .image.slide_4 { background-image: url( "/img/facts-gallery/slide_4.jpg?v=200124_1" ); }
+	.gallery-section .gallery .fact .image.slide_5 { background-image: url( "/img/facts-gallery/slide_5.jpg?v=200124" ); }
+	.gallery-section .gallery .fact .image.slide_6 { background-image: url( "/img/facts-gallery/slide_6.jpg?v=200124" ); }
 }
 
 @media( min-width: 1040px ) {
