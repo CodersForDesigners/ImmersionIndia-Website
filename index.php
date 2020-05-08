@@ -162,6 +162,18 @@
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
+<!-- The LinkedIn Insight Tag -->
+<script type="text/javascript"> _linkedin_partner_id = "1021715";
+window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+window._linkedin_data_partner_ids.push(_linkedin_partner_id); </script><script
+type="text/javascript"> (function(){var s = document.getElementsByTagName(
+"script")[0]; var b = document.createElement("script"); b.type =
+"text/javascript";b.async = true; b.src = "https://snap.licdn.com/li.lmsanalytics/insight.min.js"; s.parentNode.insertBefore(b, s);})(); </script> <noscript>
+<img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.
+com/collect/?pid=1021715&fmt=gif" /> </noscript>
+<!-- END The LinkedIn Insight Tag -->
+
+
 <!--  ★  MARKUP GOES HERE  ★  -->
 
 <div id="page-wrapper"><!-- Page Wrapper -->
@@ -192,6 +204,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<a class="button js_modal_trigger" data-mod-id="modal-faqs">FAQs</a>
 						<a class="button js_nav_button js_smooth" href="#team">Team</a>
 						<a class="button button-highlight js_nav_button js_smooth" href="#book_now">Enquire Now</a>
+						<a class="button js_modal_trigger" data-mod-id="modal-covid">COVID-19</a>
 					</div>
 				</div>
 			</div>
@@ -458,7 +471,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						Thematic Study Topics
 					</div>
 					<div class="p description text-dark columns small-10 small-offset-1 medium-7 medium-offset-4 medium-offset-0 large-7 large-offset-3">
-						<br>We believe that an exposure to India's business, Culture and History serves as an eye-opener to understanding this magnificent country . It also gives you a heightened sense of cultural awareness that helps put the prevalent global environment in perspective. Give us two weeks and we guarantee you’ll go back with a wealth of academic, experiential and cultural experiences that will change the way you view the world. From seeing to learning to applying to innovating… your journey begins with us! <br>
+						<br>We believe that an exposure to India's business, Culture and History serves as an eye-opener to understanding this magnificent country . It also gives you a heightened sense of cultural awareness that helps put the prevalent global environment in perspective. Give us two weeks and we guarantee you’ll go back with a wealth of academic, experiential and cultural experiences that will change the way you view the world. From seeing to learning to applying to innovating… your journey begins with us! <br><br>
+						<a class="button fill-pink" href="/uploads/schedules/Blend-of-Industry-Heritage-Culture.pdf" target="_blank">
+							<span>Sample Program Schedule</span>
+							<i class="icon material-icons">get_app</i>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -811,8 +828,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<a class="button columns small-12 text-center js_nav_button js_smooth active" href="#home">Home</a>
 						<a class="button columns small-12 text-center js_nav_button js_smooth" href="#what_we_do">Why Us</a>
 						<a class="button columns small-12 text-center js_nav_button js_smooth" href="#tour_packages">Study Programs</a>
+						<a class="button columns small-12 text-center js_nav_button js_smooth js_modal_trigger" data-mod-id="modal-faqs">FAQs</a>
 						<a class="button columns small-12 text-center js_nav_button js_smooth" href="#team">Team</a>
 						<a class="button button-highlight columns small-12 text-center js_nav_button js_smooth" href="#book_now">Enquire Now</a>
+						<a class="button columns small-12 text-center js_nav_button js_smooth js_modal_trigger" data-mod-id="modal-covid">COVID-19</a>
 					</div>
 				</div>
 			</div>
@@ -967,6 +986,41 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							Yes. You do require a Visa to travel to India.
 						</div>
 					</div>
+				</div>
+			</div>
+		</div><!-- END : Frequently Asked Questions (FAQs) -->
+
+
+		<!-- Modal Content : Frequently Asked Questions (FAQs) -->
+		<div class="modal-box-content js_modal_box_content <?php if ( $view == 'covid' ) : ?> active <?php endif; ?>" data-mod-id="modal-covid">
+			<div class="container">
+				<div class="blog-modal covid-modal row">
+
+					<div class="headline h1 text-light columns small-10 small-offset-1">COVID-19 Update</div>
+
+
+					<div class="title h2 columns small-10 small-offset-1">Dear Study Abroad Community,</div>
+					<div class="underline columns small-5 small-offset-1 medium-3 large-2"><span class="fill-orange"></span></div>
+					<div class="blog-content columns small-10 small-offset-1 large-8 large-offset-0">
+						<p>We would like to reach out to you personally in these uncertain times, as the situation around COVID-19 outbreak continues to evolve. World over the mood is tense, with people hoping for the chain to break somewhere along the line, resulting in the containment of the virus.</p>
+						<p>While many countries, governments and global institutions have been working overtime to control the situation, we need to see how all these measures and efforts playout in the coming months.</p>
+						<p class="text-orange">WE ARE WITH YOU IN THESE TIMES</p>
+						<p>What do we suggest?  While the simple answer is <span class="text-orange">Keep Calm…</span></p>
+						<p class="text-orange">Here are a few actionable points:</p>
+						<ul>
+							<li>At this point, our priority is to ensure that it is easy to manage changes to your travel plans. Although India is amongst the least affected countries, we would like to assure you that we are taking all possible measures to serve you during this difficult period.</li>
+							<li>Our entire team is working tirelessly and are constantly monitoring updates from the government and public health authorities to be able to support you.</li>
+							<li>We are closely working with all our airline and hotel partners to be able to help you in the best way possible.</li>
+							<li>Knowledge is power! Keep yourself informed on corona virus travel bans, movement restrictions, and health advisories. Learn about innovative strategies each country is implementing to mitigate the spread of virus.</li>
+							<li>Social distancing: As humans we are social creatures, so this won’t be easy. If you are in quarantine or self-imposed quarantine, try to keep busy and take up those projects you’ve had for years but never got around to doing. Get creative, this is a great opportunity to come out stronger!</li>
+							<li>Technology for Networking – While travels are going to be limited, let’s use this opportunity to e-meet and create new networks. To start with, schedule a call with us and we can take this forward.</li>
+						</ul>
+						<p>We remain fully committed to help you during this period of uncertainty. We sincerely pray and hope that the COVID-19 threat is mitigated in all countries and normalcy in routine and life is restored to everyone, the world over.</p>
+						<p>Once again, thank you for your patronage.</p>
+						<p>Our advice to all global citizens in this time: try not to panic, practice empathy, and remember that this too shall pass.</p>
+						<h4 class="text-orange">Together, we will come out of this stronger than ever before!</h4>
+					</div>
+
 				</div>
 			</div>
 		</div><!-- END : Frequently Asked Questions (FAQs) -->

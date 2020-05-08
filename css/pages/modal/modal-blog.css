@@ -1,0 +1,74 @@
+/*
+ * FAQs Modal
+ */
+
+.blog-modal {}
+
+.blog-modal .headline {
+	margin-bottom: 20px;
+	color: var(--off-light);
+}
+
+.blog-modal .underline {}
+
+.blog-modal .title {
+	color: var(--off-light);
+}
+
+
+/* -- BLog Content -- */
+.blog-content {
+	color: var(--light);
+}
+
+.blog-content p {
+	display: block;
+	font-size: 1.4rem;
+	line-height: 1.375;
+	margin-bottom: 10px;
+}
+
+.blog-content li {
+	position: relative;
+	list-style: none;
+	padding-left: 2rem;
+	font-size: 1.4rem;
+	line-height: 1.375;
+	margin-bottom: 10px;
+}
+
+.blog-content li:before {
+	content: '\2022';
+	left: 0;
+	position: absolute;
+}
+
+@media( min-width: 640px ) {
+	.blog-content p,
+	.blog-content li {
+		font-size: 1.6rem;
+	}
+}
+
+@media( min-width: 1040px ) {
+	.blog-content p,
+	.blog-content li {
+		font-size: 1.6rem;
+		line-height: 1.75;
+	}
+}
+
+@media( min-width: 1380px ) {
+	.blog-content p,
+	.blog-content li {
+		font-size: 2rem;
+		line-height: 2;
+	}
+}
+
+
+
+
+
+
+
